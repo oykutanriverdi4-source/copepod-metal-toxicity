@@ -1,0 +1,4 @@
+Role,Path
+Input: automatic EnviroTox-ECOTOX overlap workbook,outputs/database_audits/envirotox/02_check_envirotox_ecotox_overlap/envirotox_ecotox_overlap.xlsx
+Local editable output: manual-review workbook,outputs/database_audits/envirotox/03_prepare_envirotox_manual_review/envirotox_manual_review.xlsx
+Output: manual-review queue summary,outputs/database_audits/envirotox/03_prepare_envirotox_manual_review/manual_review_queue_summary.csv

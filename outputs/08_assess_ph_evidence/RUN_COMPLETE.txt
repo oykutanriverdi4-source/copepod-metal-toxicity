@@ -1,0 +1,4 @@
+STATUS: 08 ASSESS pH EVIDENCE = PASS
+Numeric pH metadata: 89 / 304 harmonized Results
+Repeated-pH contexts: 3; potentially isolatable: 0
+Wei et al. (2021): retained as direct acidification context, not a pH coefficient

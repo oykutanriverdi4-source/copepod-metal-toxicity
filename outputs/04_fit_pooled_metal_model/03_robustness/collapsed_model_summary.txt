@@ -1,0 +1,29 @@
+Linear mixed model fit by REML. t-tests use Kenward-Roger's method ['lmerModLmerTest']
+Formula: ln_LC50_cell ~ Metal + (1 | Reference_ID) + (1 | Species)
+   Data: primary96_collapsed
+
+REML criterion at convergence: 241
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.5086 -0.5411 -0.0165  0.3477  2.6502 
+
+Random effects:
+ Groups       Name        Variance Std.Dev.
+ Reference_ID (Intercept) 0.1992   0.4463  
+ Species      (Intercept) 0.7354   0.8576  
+ Residual                 1.1894   1.0906  
+Number of obs: 71, groups:  Reference_ID, 47; Species, 22
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)   0.9441     0.3113 34.7027   3.033 0.004567 ** 
+MetalCd      -0.1326     0.3698 58.8193  -0.359 0.721241    
+MetalZn       1.7021     0.3997 45.8315   4.259 0.000101 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+        (Intr) MetlCd
+MetalCd -0.457       
+MetalZn -0.428  0.368

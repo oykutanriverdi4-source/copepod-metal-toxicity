@@ -1,0 +1,3 @@
+STATUS: 06 COMPARE EXPOSURE DURATION = PASS
+Primary source-verified duration series: 19
+Lower LC50 at longer duration: 18/19

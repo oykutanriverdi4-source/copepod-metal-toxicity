@@ -1,0 +1,7 @@
+Comparison,Analysis_Role,References,First_metal_lower_references,Second_metal_lower_references,Equal_references,Scope
+Cd-Zn,CORE,4,3,1,0,COMBINED
+Cd-Zn,CORE,4,3,1,0,ECOTOX_FROZEN
+Cu-Cd,CORE,10,7,3,0,COMBINED
+Cu-Cd,CORE,9,7,2,0,ECOTOX_FROZEN
+Cu-Zn,CORE,4,2,2,0,COMBINED
+Cu-Zn,CORE,4,2,2,0,ECOTOX_FROZEN

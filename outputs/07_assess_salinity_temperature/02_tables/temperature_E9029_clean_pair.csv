@@ -1,0 +1,3 @@
+Temperature_Comparison_ID,Reference_ID,Source_Origin,Reference_label,Species,Metal,Stage_context,Duration_h,Temperature_C,Salinity,LC50_umol_L,Include_clean_direct,Quality_note
+TEMP_01,E_9029,ECOTOX,E_9029,Acartia tonsa,Cd,Adult,96,13,20,1.3432490615047947,YES,Clean 13-vs-21 C pair at salinity 20; the 18 C / salinity 15 result is excluded from this direct temperature contrast.
+TEMP_01,E_9029,ECOTOX,E_9029,Acartia tonsa,Cd,Adult,96,21,20,0.2579749853221129,YES,Clean 13-vs-21 C pair at salinity 20; the 18 C / salinity 15 result is excluded from this direct temperature contrast.

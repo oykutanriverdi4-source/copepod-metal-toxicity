@@ -1,0 +1,7 @@
+Role,Path
+Input: WoS-ECOTOX overlap workbook,outputs/database_audits/wos/02_check_wos_ecotox_overlap/wos_ecotox_overlap.xlsx
+Local input: WoS raw export,data/external/wos/wos_raw_export.xls
+Local output: detailed unique-reference review workbook,outputs/database_audits/wos/03_prepare_wos_unique_reference_review/wos_unique_reference_review.xlsx
+Output: triage count summary,outputs/database_audits/wos/03_prepare_wos_unique_reference_review/triage_count_summary.csv
+Output: eligibility criteria,outputs/database_audits/wos/03_prepare_wos_unique_reference_review/eligibility_criteria.csv
+Output: manual decision guide,outputs/database_audits/wos/03_prepare_wos_unique_reference_review/manual_decision_guide.csv

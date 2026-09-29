@@ -1,0 +1,7 @@
+Role,Path
+Input: Order support audit objects,outputs/12_audit_order_support/03_objects/order_support_audit_objects.rds
+Output: primary model contrasts,outputs/13_fit_order_model/01_model/order_metal_specific_contrasts.csv
+Output: LORO summary,outputs/13_fit_order_model/03_robustness/order_LORO_summary.csv
+Output: LOSO summary,outputs/13_fit_order_model/03_robustness/order_LOSO_summary.csv
+Output: environmental sensitivity,outputs/13_fit_order_model/04_sensitivity/order_environmental_sensitivity_comparison.csv
+Output: reusable analysis objects,outputs/13_fit_order_model/06_objects/order_model_analysis_objects.rds

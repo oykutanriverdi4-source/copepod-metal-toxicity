@@ -1,0 +1,6 @@
+Temperature_Comparison_ID,Reference_ID,Source_Origin,Reference_label,Species,Metal,Stage_context,Duration_h,Temperature_C,Salinity,LC50_reported_ug_L,Control_survival_percent,Include_clean_direct,Quality_note,LC50_umol_L
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,4,NA,20000,100,YES,"The publication describes the 4 C LC50 as around 20,000 ug Cu/L; surviving copepods were dormant.",314.7326346268845
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,15,NA,9300,99,YES,NA,146.35067510150128
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,25,NA,2500,95,YES,NA,39.34157932836056
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,32,NA,243,87,YES,NA,3.8240015107166463
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,38,NA,1.1,23,NO,Excluded from the clean direct set because control survival was 23%.,0.01731029490447865

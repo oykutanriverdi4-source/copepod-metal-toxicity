@@ -1,0 +1,6 @@
+STATUS: ENVIROTOX PRELIMINARY SCREENING = PASS
+Raw test rows: 3375
+Copepod-order rows: 106
+Eight-metal rows, all media: 76
+Freshwater exclusions: 22
+Saltwater preliminary candidates: 54

@@ -1,0 +1,6 @@
+Role,Path
+Input,data/processed/combined_ecotox_wos_harmonized.csv
+Primary output,outputs/03_audit_metal_support/01_tables/19_metal_selection_matrix_96h.csv
+Primary output,outputs/03_audit_metal_support/01_tables/24_DECISION_SNAPSHOT_96h.csv
+Primary output,outputs/03_audit_metal_support/01_tables/20_candidate_matched_ref_species_duration_contexts.csv
+Reusable R object,outputs/03_audit_metal_support/03_objects/metal_support_audit_objects.rds

@@ -1,0 +1,7 @@
+Role,Path,Exists,MD5
+Input: canonical combined dataset,data/processed/combined_ecotox_wos_harmonized.csv,TRUE,e5ea0198c0e93e8983f0c0f6635b9bf9
+Output: primary duration-series summary,outputs/06_compare_exposure_duration/02_tables/duration_verified_series_combined.csv,TRUE,f0adfd92c1d5b63cf4fdf457508d896b
+Output: fixed duration-pair summary,outputs/06_compare_exposure_duration/02_tables/duration_pair_effect_summary.csv,TRUE,3f4508439f890d27834c5c978a888854
+Output: complete-profile repeated-measures summary,outputs/06_compare_exposure_duration/02_tables/duration_repeated_measures_summary.csv,TRUE,3773e1ecb37f6cf83760772c0065bbb8
+Output: primary duration figure,outputs/06_compare_exposure_duration/03_figures/duration_within_verified_combined.png,TRUE,bfc2a3e8f7ad02e3069b34fd60114906
+Output: R analysis objects,outputs/06_compare_exposure_duration/04_objects/duration_within_verified_combined_objects.rds,TRUE,fc586708cb88e259030525148d90d888

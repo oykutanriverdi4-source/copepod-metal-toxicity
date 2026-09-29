@@ -1,0 +1,4 @@
+Reference_ID,Source_Origin,Species,Metal,Stage_context,Duration_days,Exposure_context,Conc_context,Basis_context,Results,pH_reported_n,pH_levels,pH_values,Temperature_levels,Temperature_values,Salinity_levels,Salinity_values,pH_candidate,Structural_status
+E_107036,ECOTOX,Eurytemora affinis,Cu,Nauplii,4,Static,Dissolved,ECOTOX_STANDARDIZED_TARGET_METAL,3,3,3,8.375 | 8.4 | 8.44,3,24.85 | 24.9 | 25,3,5 | 15 | 25,TRUE,PH_COVARIES_WITH_MULTIPLE_ENVIRONMENTAL_FACTORS
+E_17219,ECOTOX,Eurytemora affinis,Cd,Neonate,4,Static,Total,ECOTOX_STANDARDIZED_TARGET_METAL,3,3,3,8.145 | 8.17 | 8.235,2,24 | 24.5,3,5 | 15 | 25,TRUE,PH_COVARIES_WITH_MULTIPLE_ENVIRONMENTAL_FACTORS
+E_166133,ECOTOX,Acartia tonsa,Cu,Multiple,2,Renewal,Dissolved,ECOTOX_STANDARDIZED_TARGET_METAL,3,3,3,6.88 | 7.21 | 7.49,1,20,3,5 | 15 | 30,TRUE,PH_COVARIES_WITH_SALINITY

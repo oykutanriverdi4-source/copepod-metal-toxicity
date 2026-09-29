@@ -1,0 +1,16 @@
+Estimand,Method,Baseline,Ratio,Lower,Upper
+Cu: Harpacticoida / Calanoida,"96-h Cu-Cd
+Order LMM",TRUE,8.130042281169409,2.184257429159884,30.26089627129021
+Cd: Harpacticoida / Calanoida,"96-h Cu-Cd
+Order LMM",TRUE,5.1790007992005185,1.2409993785892601,21.613265679963764
+Interaction: Cd / Cu ratio of Order contrasts,"96-h Cu-Cd
+Order LMM",TRUE,0.6370201556264948,0.22093848794373738,1.836686230865038
+Cu: Harpacticoida / Calanoida,Complete-case,FALSE,9.433987375939855,1.898,46.888
+Cd: Harpacticoida / Calanoida,Complete-case,FALSE,6.478662653149657,1.222,34.342
+Interaction: Cd / Cu ratio of Order contrasts,Complete-case,FALSE,0.6867364132447996,0.26,1.816
+Cu: Harpacticoida / Calanoida,"Temperature +
+salinity adjusted",FALSE,11.11653378629406,2.007,61.575
+Cd: Harpacticoida / Calanoida,"Temperature +
+salinity adjusted",FALSE,7.630920210822297,1.295,44.974
+Interaction: Cd / Cu ratio of Order contrasts,"Temperature +
+salinity adjusted",FALSE,0.6864478044613788,0.263,1.794

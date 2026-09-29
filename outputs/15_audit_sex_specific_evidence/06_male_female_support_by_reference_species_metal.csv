@@ -1,0 +1,10 @@
+"Reference_ID","Species","Metal","Records","Duration_levels","Has_Male","Has_Female","Supports_descriptive_male_female_comparison"
+"W_002","Eurytemora affinis","Cd",5,"2; 3; 4",TRUE,TRUE,TRUE
+"W_002","Pseudodiaptomus annandalei","Cd",4,"3; 4",TRUE,TRUE,TRUE
+"W_006","Calanus finmarchicus","Ag",1,"4",FALSE,TRUE,FALSE
+"W_013","Eurytemora affinis","Cd",3,"2; 3",TRUE,TRUE,TRUE
+"W_013","Eurytemora affinis","Cu",5,"2; 3; 4",TRUE,TRUE,TRUE
+"W_013","Eurytemora affinis","Ni",3,"3; 4",TRUE,TRUE,TRUE
+"W_016","Acartia pacifica","Ni",1,"2",FALSE,TRUE,FALSE
+"W_016","Apocyclops borneoensis","Ni",1,"2",FALSE,TRUE,FALSE
+"W_016","Tigriopus japonicus","Ni",1,"2",FALSE,TRUE,FALSE

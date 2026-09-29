@@ -1,0 +1,5 @@
+Reference_ID,Test_ID,Result_ID,Source_Origin,Species,Metal,Stage_group,Stage_text,Duration_days,Temperature,Salinity,Exposure_Type,Conc_Type,LC50_umol_L
+E_14137,E_T1159839,E_R142848,ECOTOX,Tisbe battagliai,Cd,Adult,Adult,4,20.5,34.754999999999995,Renewal,Total,3.024534310673048
+E_14137,E_T1159856,E_R142865,ECOTOX,Tisbe battagliai,Cu,Adult,Adult,4,20.55,34.754999999999995,Renewal,Total,1.3848235923582917
+E_14137,E_T1159838,E_R142847,ECOTOX,Tisbe battagliai,Cd,Nauplii,Nauplii,4,20.5,34.754999999999995,Renewal,Total,4.092017008557653
+E_14137,E_T1159857,E_R142866,ECOTOX,Tisbe battagliai,Cu,Nauplii,Nauplii,4,20.55,34.754999999999995,Renewal,Total,1.0071444308060302

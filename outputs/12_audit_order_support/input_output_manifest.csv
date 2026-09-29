@@ -1,0 +1,6 @@
+Role,Path
+Input: combined harmonized dataset,data/processed/combined_ecotox_wos_harmonized.csv
+Output: 96-h candidate matrix,outputs/12_audit_order_support/01_tables/order_96_candidate_matrix.csv
+Output: final Cu-Cd support table,outputs/12_audit_order_support/01_tables/order_96h_cucd_support.csv
+Output: final model-domain decision,outputs/12_audit_order_support/01_tables/order_pre_model_decision.csv
+Output: reusable support-audit objects,outputs/12_audit_order_support/03_objects/order_support_audit_objects.rds

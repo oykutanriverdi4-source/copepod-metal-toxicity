@@ -1,0 +1,31 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: ln_LC50 ~ Metal * Order + (1 | Reference_ID) + (1 | Species)
+   Data: dat
+
+REML criterion at convergence: 287
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.7540 -0.3937  0.0242  0.5164  1.7439 
+
+Random effects:
+ Groups       Name        Variance Std.Dev.
+ Reference_ID (Intercept) 1.3222   1.1499  
+ Species      (Intercept) 0.6176   0.7859  
+ Residual                 0.4502   0.6710  
+Number of obs: 101, groups:  Reference_ID, 37; Species, 18
+
+Fixed effects:
+                           Estimate Std. Error      df t value Pr(>|t|)   
+(Intercept)                 -0.6159     0.4715 25.3735  -1.306  0.20319   
+MetalCd                      0.8347     0.3350 83.9761   2.492  0.01467 * 
+OrderHarpacticoida           2.0956     0.6248 23.8371   3.354  0.00266 **
+MetalCd:OrderHarpacticoida  -0.4510     0.5207 86.4865  -0.866  0.38889   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) MetlCd OrdrHr
+MetalCd     -0.340              
+OrdrHrpctcd -0.755  0.256       
+MtlCd:OrdrH  0.218 -0.643 -0.292

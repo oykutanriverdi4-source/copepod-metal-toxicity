@@ -1,0 +1,3 @@
+STATUS: 07 ASSESS SALINITY AND TEMPERATURE = PASS
+Salinity comparisons: 7 across 5 References
+Temperature comparisons: 3; lower LC50 at higher temperature: 3/3

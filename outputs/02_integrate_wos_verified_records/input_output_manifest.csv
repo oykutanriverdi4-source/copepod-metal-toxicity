@@ -1,0 +1,6 @@
+Role,File,Created
+Script-01 ECOTOX processed dataset,data/processed/ecotox_harmonized.csv,FALSE
+Curated WoS source-verification workbook,data/curated/wos/wos_source_verified_records.xlsx,FALSE
+Harmonized WoS quantitative augmentation,outputs/02_integrate_wos_verified_records/02_data/wos_harmonized_verified.csv,TRUE
+Combined analysis-ready dataset (canonical CSV),data/processed/combined_ecotox_wos_harmonized.csv,TRUE
+Combined audit workbook (optional XLSX),outputs/02_integrate_wos_verified_records/02_data/combined_ecotox_wos_harmonized.xlsx,TRUE

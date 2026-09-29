@@ -1,0 +1,12 @@
+Comparison,Analysis_Role,Matched_contexts,References,First_metal_lower_contexts,Second_metal_lower_contexts,Equal_contexts
+Cd-Hg,SUPPORTING,5,3,0,5,0
+Cd-Ni,OTHER_VERIFIED,2,2,2,0,0
+Cd-Pb,OTHER_VERIFIED,2,1,2,0,0
+Cd-Zn,CORE,7,4,5,2,0
+Cu-Cd,CORE,21,10,15,6,0
+Cu-Hg,SUPPORTING,6,4,0,6,0
+Cu-Ni,OTHER_VERIFIED,4,2,4,0,0
+Cu-Zn,CORE,6,4,4,2,0
+Ni-Hg,OTHER_VERIFIED,1,1,0,1,0
+Zn-Hg,OTHER_VERIFIED,1,1,0,1,0
+Zn-Ni,OTHER_VERIFIED,1,1,1,0,0

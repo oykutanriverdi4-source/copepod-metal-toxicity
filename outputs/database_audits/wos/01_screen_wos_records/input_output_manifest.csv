@@ -1,0 +1,5 @@
+Role,Path
+Local input: raw WoS export,data/external/wos/wos_raw_export.xls
+Local output: detailed screening workbook,outputs/database_audits/wos/01_screen_wos_records/wos_preliminary_screening.xlsx
+Output: screening count summary,outputs/database_audits/wos/01_screen_wos_records/screening_count_summary.csv
+Output: search metadata,outputs/database_audits/wos/01_screen_wos_records/search_metadata.csv

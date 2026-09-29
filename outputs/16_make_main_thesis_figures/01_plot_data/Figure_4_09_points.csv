@@ -1,0 +1,69 @@
+Panel,Series_ID,Reference_ID,Species,Metal,Source_Origin,Source_label,Stage_raw,LC50_umol_L,Stage_display
+"E_18833 | Ag
+Tigriopus brevicornis",6,E_18833,Tigriopus brevicornis,Ag,ECOTOX,ECOTOX,Nauplii,0.3372,Nauplii
+"E_18833 | Ag
+Tigriopus brevicornis",6,E_18833,Tigriopus brevicornis,Ag,ECOTOX,ECOTOX,Copepodite,0.516,Copepodite
+"E_18833 | Ag
+Tigriopus brevicornis",6,E_18833,Tigriopus brevicornis,Ag,ECOTOX,ECOTOX,Adult,1.285,Adult
+"E_11097 | Cd
+Tisbe holothuriae",1,E_11097,Tisbe holothuriae,Cd,ECOTOX,ECOTOX,Nauplius 1 d,4.789,"Nauplius
+1 d"
+"E_11097 | Cd
+Tisbe holothuriae",1,E_11097,Tisbe holothuriae,Cd,ECOTOX,ECOTOX,Nauplius 5 d,5.738,"Nauplius
+5 d"
+"E_11097 | Cd
+Tisbe holothuriae",1,E_11097,Tisbe holothuriae,Cd,ECOTOX,ECOTOX,Copepodid 10 d,8.06,"Copepodid
+10 d"
+"E_11097 | Cd
+Tisbe holothuriae",1,E_11097,Tisbe holothuriae,Cd,ECOTOX,ECOTOX,Adult ovigerous band,8.154,"Adult
+band"
+"E_11097 | Cd
+Tisbe holothuriae",1,E_11097,Tisbe holothuriae,Cd,ECOTOX,ECOTOX,Adult ovigerous sac,7.763,"Adult
+sac"
+"E_14137 | Cd
+Tisbe battagliai",4,E_14137,Tisbe battagliai,Cd,ECOTOX,ECOTOX,Nauplii,4.092,Nauplii
+"E_14137 | Cd
+Tisbe battagliai",4,E_14137,Tisbe battagliai,Cd,ECOTOX,ECOTOX,Adult,3.025,Adult
+"E_19281 | Cd
+Tigriopus brevicornis",8,E_19281,Tigriopus brevicornis,Cd,ECOTOX,ECOTOX,Nauplii,0.1548,Nauplii
+"E_19281 | Cd
+Tigriopus brevicornis",8,E_19281,Tigriopus brevicornis,Cd,ECOTOX,ECOTOX,Copepodid,0.2642,Copepodid
+"W_009 | Cd
+Pseudodiaptomus annandalei",10,W_009,Pseudodiaptomus annandalei,Cd,WoS_supplemental,Supplementary literature,Nauplii,0.3585,Nauplii
+"W_009 | Cd
+Pseudodiaptomus annandalei",10,W_009,Pseudodiaptomus annandalei,Cd,WoS_supplemental,Supplementary literature,Copepodid,1.071,Copepodid
+"E_11097 | Cu
+Tisbe holothuriae",2,E_11097,Tisbe holothuriae,Cu,ECOTOX,ECOTOX,Nauplius 1 d,4.944,"Nauplius
+1 d"
+"E_11097 | Cu
+Tisbe holothuriae",2,E_11097,Tisbe holothuriae,Cu,ECOTOX,ECOTOX,Nauplius 5 d,5.374,"Nauplius
+5 d"
+"E_11097 | Cu
+Tisbe holothuriae",2,E_11097,Tisbe holothuriae,Cu,ECOTOX,ECOTOX,Copepodid 10 d,8.323,"Copepodid
+10 d"
+"E_11097 | Cu
+Tisbe holothuriae",2,E_11097,Tisbe holothuriae,Cu,ECOTOX,ECOTOX,Adult ovigerous band,7.039,"Adult
+band"
+"E_11097 | Cu
+Tisbe holothuriae",2,E_11097,Tisbe holothuriae,Cu,ECOTOX,ECOTOX,Adult ovigerous sac,6.737,"Adult
+sac"
+"E_14137 | Cu
+Tisbe battagliai",5,E_14137,Tisbe battagliai,Cu,ECOTOX,ECOTOX,Nauplii,1.007,Nauplii
+"E_14137 | Cu
+Tisbe battagliai",5,E_14137,Tisbe battagliai,Cu,ECOTOX,ECOTOX,Adult,1.385,Adult
+"E_18833 | Cu
+Tigriopus brevicornis",7,E_18833,Tigriopus brevicornis,Cu,ECOTOX,ECOTOX,Nauplii,4.847,Nauplii
+"E_18833 | Cu
+Tigriopus brevicornis",7,E_18833,Tigriopus brevicornis,Cu,ECOTOX,ECOTOX,Copepodite,6.483,Copepodite
+"E_18833 | Cu
+Tigriopus brevicornis",7,E_18833,Tigriopus brevicornis,Cu,ECOTOX,ECOTOX,Adult,14.06,Adult
+"E_2977 | Cu
+Tigriopus californicus",9,E_2977,Tigriopus californicus,Cu,ECOTOX,ECOTOX,Egg,3.6,Egg
+"E_2977 | Cu
+Tigriopus californicus",9,E_2977,Tigriopus californicus,Cu,ECOTOX,ECOTOX,Nauplii,1.928,Nauplii
+"E_2977 | Cu
+Tigriopus californicus",9,E_2977,Tigriopus californicus,Cu,ECOTOX,ECOTOX,Copepodite,7.188,Copepodite
+"E_111830 | Zn
+Robertsonia propinqua",3,E_111830,Robertsonia propinqua,Zn,ECOTOX,ECOTOX,Nauplii,26,Nauplii
+"E_111830 | Zn
+Robertsonia propinqua",3,E_111830,Robertsonia propinqua,Zn,ECOTOX,ECOTOX,Adult,41.3,Adult

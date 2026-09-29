@@ -1,0 +1,5 @@
+Metal,Order,Results,temp_known,temp_percent,sal_known,sal_percent,temp_sal_both_known,temp_sal_both_percent,References,Species
+Cd,Calanoida,24,24,100,24,100,24,100,9,5
+Cd,Harpacticoida,11,9,81.81818181818183,11,100,9,81.81818181818183,7,5
+Cu,Calanoida,23,23,100,20,86.95652173913044,20,86.95652173913044,9,6
+Cu,Harpacticoida,43,28,65.11627906976744,42,97.67441860465115,28,65.11627906976744,17,10

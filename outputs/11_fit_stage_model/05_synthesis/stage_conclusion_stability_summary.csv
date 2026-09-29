@@ -1,0 +1,4 @@
+Question,Combined_primary,ECOTOX_only,LORO_direction_consistency,LOSO_direction_consistency
+Cu: are Nauplii point estimates lower than Adults?,TRUE,TRUE,TRUE,TRUE
+Cd: are Nauplii point estimates lower than Adults?,TRUE,TRUE,TRUE,TRUE
+Is the Cd-vs-Cu stage-contrast magnitude clearly different?,FALSE,FALSE,NA,NA

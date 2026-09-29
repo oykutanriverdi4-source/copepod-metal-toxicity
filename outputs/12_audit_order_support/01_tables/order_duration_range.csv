@@ -1,0 +1,14 @@
+Metal,Order,Results,References,Species,min_duration,max_duration,durations
+Ag,Calanoida,13,5,4,2,4,2 | 4
+Ag,Harpacticoida,6,3,2,4,4,4
+Cd,Calanoida,36,11,8,1,4,1 | 2 | 3 | 4
+Cd,Harpacticoida,19,11,8,1,4,1 | 2 | 4
+Cu,Calanoida,44,14,13,1,4,1 | 2 | 3 | 4
+Cu,Harpacticoida,68,25,12,1,4,1 | 2 | 3 | 4
+Hg,Calanoida,35,7,10,1,4,1 | 2 | 3 | 4
+Hg,Harpacticoida,2,2,2,2,4,2 | 4
+Ni,Calanoida,19,6,7,1,4,1 | 2 | 3 | 4
+Ni,Harpacticoida,4,4,3,2,4,2 | 4
+Pb,Calanoida,3,3,2,4,4,4
+Zn,Calanoida,28,5,10,1,4,1 | 2 | 3 | 4
+Zn,Harpacticoida,21,13,8,1,4,1 | 3 | 4

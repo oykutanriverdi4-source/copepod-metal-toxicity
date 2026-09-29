@@ -1,0 +1,6 @@
+Role,Path
+Local input: EnviroTox raw export,data/external/envirotox/envirotox_raw_export.xlsx
+Local output: detailed preliminary-screening workbook,outputs/database_audits/envirotox/01_screen_envirotox_records/envirotox_preliminary_screening.xlsx
+Output: screening count summary,outputs/database_audits/envirotox/01_screen_envirotox_records/screening_count_summary.csv
+Output: metal summary,outputs/database_audits/envirotox/01_screen_envirotox_records/metal_summary.csv
+Output: search metadata,outputs/database_audits/envirotox/01_screen_envirotox_records/search_metadata.csv

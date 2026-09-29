@@ -1,0 +1,6 @@
+Role,Path,Exists,MD5
+Input: canonical combined dataset,data/processed/combined_ecotox_wos_harmonized.csv,TRUE,e5ea0198c0e93e8983f0c0f6635b9bf9
+Output: all-metal 96-h stage candidate matrix,outputs/10_audit_stage_support/01_tables/stage_96_candidate_matrix.csv,TRUE,26c8afda8a621b0ee19dedaf518edb58
+Output: final Cu-Cd 96-h stage support,outputs/10_audit_stage_support/01_tables/stage_cucd_96_support.csv,TRUE,b3c6d192a4798bf1b4f0bfc1b066cd33
+Output: final stage model data object,outputs/10_audit_stage_support/01_tables/stage_model_data.csv,TRUE,ce6464386fa1ca5b5be5571be1fe8e18
+Output: R analysis objects,outputs/10_audit_stage_support/03_objects/stage_support_audit_objects.rds,TRUE,e169a304c06b4f0c2000932329cb24c5

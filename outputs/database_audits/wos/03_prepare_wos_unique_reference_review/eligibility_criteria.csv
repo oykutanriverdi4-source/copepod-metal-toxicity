@@ -1,0 +1,15 @@
+criterion,primary_scope,triage_rule
+Taxonomy,Copepod,"Missing metadata triggers source verification, not automatic exclusion"
+Target metals,"Cu, Cd, Zn, Ni, Pb, Ag, Cr, or Hg",Generic trace/heavy-metal wording alone requires metal-identity verification
+Environment,Marine or estuarine salt/brackish water,Freshwater-only evidence can be classified outside the thesis scope
+Test setting,Laboratory,Missing laboratory wording requires source verification
+Exposure route,Waterborne,Missing waterborne wording requires source verification
+Exposure structure,At least one separate single-metal exposure arm,Mixture or multi-metal studies are retained if separate single-metal arms may exist
+Biological response,Mortality,Mortality or lethal response must be confirmed
+Endpoint,LC50,LC50 must be confirmed from the source
+Exposure duration,24-96 h,Only explicit LC50 durations outside 24-96 h constitute a metadata-level duration failure
+LC50 value,Usable point estimate rather than only a censored/range value,"The full paper, table, figure, or supplement may provide the usable point estimate"
+Chemical interpretation,Chemical identity and concentration basis sufficiently interpretable,"Nanoparticles, Cr forms, zinc pyrithione, leaching, and ambiguous bases require source review"
+Modifier treatment,Plain Primary evidence separated from deliberate modifier treatments,Modifier studies are not treated as invalid; plain and modifier evidence are separated
+Reference-level decision,At least one eligible LC50 Result in the source is sufficient to move the Reference to result-level extraction,Reference-level eligibility does not equal one Result and does not automatically add data to the thesis dataset
+Analytical relevance,Assessed only after eligible Results are extracted across all eight metals,Do not use current Cu-Cd-Zn model membership as an eligibility rule

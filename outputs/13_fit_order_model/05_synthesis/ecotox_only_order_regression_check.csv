@@ -1,0 +1,4 @@
+Estimand,Expected,ECOTOX_reproduction,Absolute_difference,Match
+Cu Harpacticoida / Calanoida,9.8301,9.83010170613505,1.7061350501279549e-6,TRUE
+Cd Harpacticoida / Calanoida,5.4786,5.47856261783312,3.738216688020657e-5,TRUE
+Cd-vs-Cu ratio of ratios,0.5573,0.557325120493301,2.5120493300945235e-5,TRUE

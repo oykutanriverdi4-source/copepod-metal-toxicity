@@ -1,0 +1,11 @@
+Series_ID,Reference_ID,Species,Metal,Duration_days,Source_Origin,Temperature,Salinity,n_stages,Stage_profile,Duration_h
+6,E_18833,Tigriopus brevicornis,Ag,4,ECOTOX,20,37,3,Nauplii: 0.3372 | Copepodite: 0.5160 | Adult: 1.2850,96
+1,E_11097,Tisbe holothuriae,Cd,2,ECOTOX,18,38,5,Nauplius 1 d: 4.789 | Nauplius 5 d: 5.738 | Copepodid 10 d: 8.060 | Adult ovigerous band: 8.154 | Adult ovigerous sac: 7.763,48
+4,E_14137,Tisbe battagliai,Cd,4,ECOTOX,20.5,34.754999999999995,2,Nauplii: 4.092 | Adult: 3.025,96
+8,E_19281,Tigriopus brevicornis,Cd,4,ECOTOX,20,35,2,Nauplii: 0.1548 | Copepodid: 0.2642,96
+10,W_009,Pseudodiaptomus annandalei,Cd,4,WoS_supplemental,26,15,2,Nauplii: 0.3585 | Copepodid: 1.0710,96
+2,E_11097,Tisbe holothuriae,Cu,2,ECOTOX,18,38,5,Nauplius 1 d: 4.944 | Nauplius 5 d: 5.374 | Copepodid 10 d: 8.323 | Adult ovigerous band: 7.039 | Adult ovigerous sac: 6.737,48
+5,E_14137,Tisbe battagliai,Cu,4,ECOTOX,20.55,34.754999999999995,2,Nauplii: 1.007 | Adult: 1.385,96
+7,E_18833,Tigriopus brevicornis,Cu,4,ECOTOX,20,37,3,Nauplii: 4.847 | Copepodite: 6.483 | Adult: 14.060,96
+9,E_2977,Tigriopus californicus,Cu,4,ECOTOX,16,35,3,Egg: 3.600 | Nauplii: 1.928 | Copepodite: 7.188,96
+3,E_111830,Robertsonia propinqua,Zn,4,ECOTOX,21,32,2,Nauplii: 26.0 | Adult: 41.3,96

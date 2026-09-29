@@ -1,0 +1,4 @@
+Pair,n_contexts,n_references,r_equal_reference,bootstrap_low,bootstrap_high,bootstrap_valid,Status,Interpretation
+Cu-Cd,21,10,0.708554239934469,0.0942146893242078,0.918399005469748,20000,EXPLORATORY_DESCRIPTIVE,Exploratory descriptive result
+Cu-Zn,6,4,0.441306477862408,-0.999999999999905,0.999999999999998,19759,EXPLORATORY_DESCRIPTIVE,Exploratory descriptive result
+Cd-Zn,7,4,0.904026773284763,-0.295004067936227,1,19857,EXPLORATORY_DESCRIPTIVE,Exploratory descriptive result

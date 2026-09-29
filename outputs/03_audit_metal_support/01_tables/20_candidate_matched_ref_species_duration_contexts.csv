@@ -1,0 +1,31 @@
+Reference_ID,Species,Duration_days,n_metals,Metals,Results,Tests,Source_Origins
+E_2183,Nitocra spinipes,4,5,Cd | Cu | Hg | Ni | Zn,5,5,ECOTOX
+E_111315,Tigriopus japonicus,4,3,Cd | Cu | Zn,3,3,ECOTOX
+E_166028,Tigriopus fulvus,2,3,Cd | Cu | Hg,3,3,ECOTOX
+E_3734,Acartia clausi,4,3,Hg | Ni | Zn,3,3,ECOTOX
+E_3734,Eurytemora affinis,4,3,Hg | Ni | Zn,3,3,ECOTOX
+E_5563,Acartia simplex,1,3,Cd | Cu | Zn,3,3,ECOTOX
+E_5563,Paracalanus parvus,1,3,Cd | Cu | Zn,3,3,ECOTOX
+E_5563,Scutellidium sp.,1,3,Cd | Cu | Zn,3,3,ECOTOX
+E_8445,Acartia tonsa,4,3,Cd | Cu | Hg,12,12,ECOTOX
+W_013,Eurytemora affinis,3,3,Cd | Cu | Ni,5,5,WoS_supplemental
+E_10900,Eurytemora affinis,4,2,Cd | Cu,6,6,ECOTOX
+E_11097,Tisbe holothuriae,2,2,Cd | Cu,10,10,ECOTOX
+E_14137,Tisbe battagliai,4,2,Cd | Cu,4,4,ECOTOX
+E_153073,Paracyclopina nana,4,2,Cd | Cu,2,2,ECOTOX
+E_15726,Tisbe holothuriae,2,2,Cd | Cu,2,2,ECOTOX
+E_169337,Nitocra spinipes,4,2,Cu | Zn,2,2,ECOTOX
+E_18833,Tigriopus brevicornis,4,2,Ag | Cu,8,8,ECOTOX
+E_192310,Acartia danae,4,2,Cd | Pb,2,2,ECOTOX
+E_192310,Oithona similis,4,2,Cd | Pb,2,2,ECOTOX
+E_2332,Nitocra spinipes,4,2,Cd | Zn,5,5,ECOTOX
+E_3734,Acartia tonsa,4,2,Hg | Zn,2,2,ECOTOX
+E_3734,Pseudodiaptomus coronatus,4,2,Hg | Zn,2,2,ECOTOX
+E_3751,Acartia clausi,4,2,Ag | Pb,2,2,ECOTOX
+E_3825,Acartia clausi,4,2,Ag | Pb,2,2,ECOTOX
+E_6045,Acartia tonsa,1,2,Cu | Hg,3,3,ECOTOX
+E_6045,Euchaeta marina,1,2,Cu | Hg,2,2,ECOTOX
+E_6045,Labidocera scotti,1,2,Cu | Hg,2,2,ECOTOX
+E_6079,Calanoida,2,2,Cu | Hg,4,4,ECOTOX
+W_013,Eurytemora affinis,2,2,Cd | Cu,2,2,WoS_supplemental
+W_013,Eurytemora affinis,4,2,Cu | Ni,4,4,WoS_supplemental

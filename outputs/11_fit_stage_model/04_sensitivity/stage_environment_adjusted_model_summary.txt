@@ -1,0 +1,33 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: ln_LC50 ~ Metal * Stage + Temperature_z + Salinity_z + (1 | Reference_ID) +      (1 | Species)
+   Data: stage_env_cc_scaled
+
+REML criterion at convergence: 187.3
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-1.33695 -0.35742 -0.05752  0.49861  1.41582 
+
+Random effects:
+ Groups       Name        Variance Std.Dev.
+ Reference_ID (Intercept) 1.9050   1.3802  
+ Species      (Intercept) 1.3375   1.1565  
+ Residual                 0.3886   0.6233  
+Number of obs: 60, groups:  Reference_ID, 27; Species, 16
+
+Fixed effects:
+                      Estimate Std. Error        df t value Pr(>|t|)
+(Intercept)           0.801921   0.472626 22.034059   1.697    0.104
+MetalCd               0.083964   0.352128 27.320168   0.238    0.813
+StageNauplii         -0.816338   0.493021 28.238842  -1.656    0.109
+Temperature_z        -0.226088   0.251840 50.321288  -0.898    0.374
+Salinity_z            0.007113   0.269401 53.214923   0.026    0.979
+MetalCd:StageNauplii  0.488554   0.739088 32.713969   0.661    0.513
+
+Correlation of Fixed Effects:
+            (Intr) MetlCd StgNpl Tmprt_ Slnty_
+MetalCd     -0.326                            
+StageNaupli -0.254  0.217                     
+Temperatr_z  0.024  0.060 -0.113              
+Salinity_z   0.009  0.055  0.035  0.104       
+MtlCd:StgNp  0.105 -0.409 -0.537  0.027  0.048

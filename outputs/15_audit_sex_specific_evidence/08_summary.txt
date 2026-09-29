@@ -1,0 +1,23 @@
+STATUS: 15 AUDIT SEX-SPECIFIC EVIDENCE = PASS
+Combined input rows: 353
+Positive molar LC50 rows: 304
+Quantitative References: 77
+Fields inspected: External_Stage_Sex, Lifestage
+Explicit-sex quantitative rows: 25
+References with any explicit-sex quantitative row: 5
+Reference × Species × Metal groups containing both explicit male and female rows: 5
+
+     Sex_field_status Records References Species_labels
+ Both sexes mentioned       1          1              1
+               Female      14          4              6
+                 Male      10          2              2
+         Not explicit     279         73             39
+
+Interpretation:
+Not explicit means no explicit sex in inspected fields; it does not mean the paper lacks sex information.
+Both sexes mentioned does not establish pooled or separate male/female experiments.
+Explicit male/female labels establish record availability, not a general sex effect.
+Note mentions are review candidates and are not automatically verified sex labels.
+Reference/species counts overlap across categories and should not be added.
+No duration restriction, model, significance test, or pooled sex-effect estimate was applied.
+The limited comparative evidence is retained as complementary biological evidence rather than a separate sex-effects model.

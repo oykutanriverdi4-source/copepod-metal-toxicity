@@ -1,0 +1,4 @@
+Question,Combined_primary,ECOTOX_only,LORO_direction_consistency,LOSO_direction_consistency
+Cu: is Harpacticoida LC50 higher than Calanoida?,TRUE,TRUE,TRUE,TRUE
+Cd: is Harpacticoida LC50 higher than Calanoida?,TRUE,TRUE,TRUE,TRUE
+Is the Cd order contrast smaller than the Cu order contrast?,TRUE,TRUE,TRUE,TRUE

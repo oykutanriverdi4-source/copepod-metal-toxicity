@@ -1,0 +1,5 @@
+Step,Rule
+Source/reference matching,Normalized citation/title similarity with long-title containment; high-confidence source matches proceed to Result-level checking.
+Result context matching,"Within a matched ECOTOX Reference, require normalized species + metal + exposure duration."
+LC50 equality,Positive mg/L LC50 values compared with base R all.equal using the larger absolute value as scale and default tolerance.
+Interpretation of non-exact matches,Retain for original-source review; do not automatically classify as additional evidence.

@@ -1,0 +1,1 @@
+Comparison columns: primary_* = Reference + Species; ref_only_* = Reference only. Percent change is (Reference-only / Reference+Species - 1) * 100.

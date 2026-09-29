@@ -1,0 +1,16 @@
+Variant,Variant_family,contrast,LC50_ratio,ratio_lower,ratio_upper,p.value,Direction,CI_excludes_1
+Combined Reference + Species random intercepts,Primary model,Cu - Cd,0.7332366283252216,0.3967487957016584,1.3551041841649927,0.4558925852177742,<1,FALSE
+Combined Reference + Species random intercepts,Primary model,Cu - Zn,0.23318715318664052,0.10288207817046952,0.5285298409426715,1.438301938273545e-4,<1,TRUE
+Combined Reference + Species random intercepts,Primary model,Cd - Zn,0.31802441964643935,0.1391454317792796,0.7268620334722008,0.003753057735310872,<1,TRUE
+ECOTOX-only Reference + Species random intercepts,Augmentation sensitivity,Cu - Cd,0.7331504095432644,0.3807117311913754,1.411854374256889,0.499926246197841,<1,FALSE
+ECOTOX-only Reference + Species random intercepts,Augmentation sensitivity,Cu - Zn,0.26192913059147627,0.10712861046667192,0.6404159370082604,0.0015914123502821509,<1,TRUE
+ECOTOX-only Reference + Species random intercepts,Augmentation sensitivity,Cd - Zn,0.3572652039499671,0.14633082882397191,0.8722592975056113,0.019521436948807702,<1,TRUE
+Reference fixed effects + Species random intercept,Source-structure sensitivity,Cu - Cd,0.613667693500378,0.3018430647646281,1.2476285924930248,0.23319492949620946,<1,FALSE
+Reference fixed effects + Species random intercept,Source-structure sensitivity,Cu - Zn,0.45000469202792914,0.15210296079881627,1.331362793884071,0.1901151977905723,<1,FALSE
+Reference fixed effects + Species random intercept,Source-structure sensitivity,Cd - Zn,0.7333035400007609,0.2618589559877898,2.05352564608377,0.7523487562826423,<1,FALSE
+Reference-only random intercept,Model-structure sensitivity,Cu - Cd,0.7628226514523608,0.3887847318583365,1.4967110328315034,0.6077775602080893,<1,FALSE
+Reference-only random intercept,Model-structure sensitivity,Cu - Zn,0.2531002005113336,0.10070676566335518,0.6361013689290497,0.0016365597696293976,<1,TRUE
+Reference-only random intercept,Model-structure sensitivity,Cd - Zn,0.33179429062502075,0.13308264449762874,0.827211179240748,0.013486050009801631,<1,TRUE
+Reference x Species x Metal cell collapse,Weighting sensitivity,Cu - Cd,1.1417716364516097,0.4692622745176468,2.778067917659472,0.9316862450560665,>1,FALSE
+Reference x Species x Metal cell collapse,Weighting sensitivity,Cu - Zn,0.18230021519968193,0.06923805150605006,0.4799870553686277,2.92911834530174e-4,<1,TRUE
+Reference x Species x Metal cell collapse,Weighting sensitivity,Cd - Zn,0.15966434038091304,0.05537655451728938,0.46035189100312945,3.308460423189219e-4,<1,TRUE

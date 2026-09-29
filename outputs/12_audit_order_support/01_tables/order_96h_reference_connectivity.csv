@@ -1,0 +1,38 @@
+Order,Reference_ID,n_metals,metals,n_species
+Calanoida,E_10900,2,Cd | Cu,1
+Calanoida,E_8445,2,Cd | Cu,1
+Calanoida,E_10443,1,Cd,2
+Calanoida,E_107036,1,Cu,1
+Calanoida,E_14601,1,Cd,2
+Calanoida,E_17219,1,Cd,1
+Calanoida,E_17398,1,Cu,1
+Calanoida,E_18395,1,Cu,1
+Calanoida,E_192310,1,Cd,1
+Calanoida,E_3735,1,Cu,3
+Calanoida,E_6079,1,Cu,1
+Calanoida,E_9029,1,Cd,1
+Calanoida,W_002,1,Cd,2
+Calanoida,W_009,1,Cd,1
+Calanoida,W_011,1,Cu,1
+Calanoida,W_013,1,Cu,1
+Harpacticoida,E_111315,2,Cd | Cu,1
+Harpacticoida,E_14137,2,Cd | Cu,1
+Harpacticoida,E_2183,2,Cd | Cu,1
+Harpacticoida,E_111599,1,Cu,1
+Harpacticoida,E_115854,1,Cu,1
+Harpacticoida,E_13507,1,Cu,1
+Harpacticoida,E_156333,1,Cu,2
+Harpacticoida,E_156339,1,Cu,1
+Harpacticoida,E_166160,1,Cu,1
+Harpacticoida,E_166161,1,Cu,1
+Harpacticoida,E_166814,1,Cu,1
+Harpacticoida,E_169337,1,Cu,1
+Harpacticoida,E_169694,1,Cu,1
+Harpacticoida,E_169914,1,Cu,1
+Harpacticoida,E_18833,1,Cu,1
+Harpacticoida,E_19281,1,Cd,1
+Harpacticoida,E_2332,1,Cd,1
+Harpacticoida,E_2977,1,Cu,1
+Harpacticoida,E_59877,1,Cu,1
+Harpacticoida,E_9365,1,Cd,1
+Harpacticoida,W_012,1,Cd,1

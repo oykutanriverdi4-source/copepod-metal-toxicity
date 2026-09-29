@@ -1,0 +1,12 @@
+Source_Origin,Metal,Conc_Type,Results,References,Species
+ECOTOX,Cu,Total,55,19,13
+ECOTOX,Cu,Dissolved,9,6,6
+ECOTOX,Cd,Total,28,13,9
+ECOTOX,Cd,Dissolved,2,1,2
+ECOTOX,Zn,Total,22,10,9
+ECOTOX,Zn,Dissolved,1,1,1
+WoS_supplemental,Cu,Nominal,2,1,1
+WoS_supplemental,Cu,Measured,1,1,1
+WoS_supplemental,Cd,Nominal,7,3,3
+WoS_supplemental,Zn,Nominal,3,1,1
+WoS_supplemental,Zn,Unspecified,1,1,1

@@ -1,0 +1,27 @@
+Metal,Order,Species,n_results,total_results,species_share
+Cd,Calanoida,Acartia tonsa,9,24,0.375
+Cd,Calanoida,Eurytemora affinis,9,24,0.375
+Cd,Calanoida,Pseudodiaptomus annandalei,4,24,0.16666666666666666
+Cd,Calanoida,Acartia clausi,1,24,0.041666666666666664
+Cd,Calanoida,Acartia danae,1,24,0.041666666666666664
+Cd,Harpacticoida,Nitocra spinipes,3,11,0.2727272727272727
+Cd,Harpacticoida,Tigriopus brevicornis,3,11,0.2727272727272727
+Cd,Harpacticoida,Tigriopus japonicus,2,11,0.18181818181818182
+Cd,Harpacticoida,Tisbe battagliai,2,11,0.18181818181818182
+Cd,Harpacticoida,Amphiascus tenuiremis,1,11,0.09090909090909091
+Cu,Calanoida,Eurytemora affinis,12,23,0.5217391304347826
+Cu,Calanoida,Acartia tonsa,5,23,0.21739130434782608
+Cu,Calanoida,Calanoida,3,23,0.13043478260869565
+Cu,Calanoida,Acartia clausi,1,23,0.043478260869565216
+Cu,Calanoida,Gladioferens pectinatus,1,23,0.043478260869565216
+Cu,Calanoida,Pseudodiaptomus coronatus,1,23,0.043478260869565216
+Cu,Harpacticoida,Tigriopus japonicus,15,43,0.3488372093023256
+Cu,Harpacticoida,Tigriopus californicus,13,43,0.3023255813953488
+Cu,Harpacticoida,Tigriopus brevicornis,4,43,0.09302325581395349
+Cu,Harpacticoida,Nitocra spinipes,3,43,0.06976744186046512
+Cu,Harpacticoida,Tigriopus fulvus,2,43,0.046511627906976744
+Cu,Harpacticoida,Tisbe battagliai,2,43,0.046511627906976744
+Cu,Harpacticoida,Amphiascoides atopus,1,43,0.023255813953488372
+Cu,Harpacticoida,Amphiascus tenuiremis,1,43,0.023255813953488372
+Cu,Harpacticoida,Robertgurneya hopkinsi,1,43,0.023255813953488372
+Cu,Harpacticoida,Tisbe furcata,1,43,0.023255813953488372

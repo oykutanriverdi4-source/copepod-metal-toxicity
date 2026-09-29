@@ -1,0 +1,35 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: ln_LC50 ~ Metal * Order + Temperature_z + Salinity_z + (1 | Reference_ID) +      (1 | Species)
+   Data: order_env_cc_scaled
+
+REML criterion at convergence: 228
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.17430 -0.44318  0.00719  0.50325  1.58194 
+
+Random effects:
+ Groups       Name        Variance Std.Dev.
+ Reference_ID (Intercept) 1.7405   1.3193  
+ Species      (Intercept) 1.1172   1.0570  
+ Residual                 0.3149   0.5612  
+Number of obs: 81, groups:  Reference_ID, 32; Species, 15
+
+Fixed effects:
+                           Estimate Std. Error      df t value Pr(>|t|)   
+(Intercept)                 -0.8511     0.5830 16.5726  -1.460  0.16305   
+MetalCd                      0.9053     0.2977 48.1407   3.041  0.00381 **
+OrderHarpacticoida           2.4084     0.8107 17.0273   2.971  0.00856 **
+Temperature_z               -0.1724     0.2115 58.7203  -0.815  0.41823   
+Salinity_z                  -0.2128     0.1678 54.2155  -1.268  0.21020   
+MetalCd:OrderHarpacticoida  -0.3762     0.4707 48.8741  -0.799  0.42803   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) MetlCd OrdrHr Tmprt_ Slnty_
+MetalCd     -0.262                            
+OrdrHrpctcd -0.727  0.182                     
+Temperatr_z  0.034 -0.033 -0.032              
+Salinity_z   0.071  0.051 -0.168  0.089       
+MtlCd:OrdrH  0.167 -0.633 -0.212  0.049 -0.017

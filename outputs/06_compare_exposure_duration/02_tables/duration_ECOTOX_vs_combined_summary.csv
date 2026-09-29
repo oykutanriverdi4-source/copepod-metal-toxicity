@@ -1,0 +1,5 @@
+Evidence_Set,Series,References,Lower_at_longer,Higher_at_longer
+Original ECOTOX source-verified,4,3,4,0
+Combined ECOTOX + WoS source-verified,19,10,18,1
+Combined strict non-extrapolated,15,7,14,1
+Combined extended sensitivity,21,12,20,1

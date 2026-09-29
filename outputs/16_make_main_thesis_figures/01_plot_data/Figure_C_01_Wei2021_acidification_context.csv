@@ -1,0 +1,3 @@
+Acidification_Comparison_ID,Reference_ID,Reference,DOI,Species,Metal,Duration_h,pCO2_uatm,pH_value,pH_scale,LC50_reported_mg_L,Evidence_role,Source_note
+PH_EXT_01,ENV_WEI2021,Wei et al. (2021),10.1016/j.marpolbul.2021.113145,Tigriopus japonicus,Cd,48,400,NA,NA,12.03,DIRECT_ACIDIFICATION_NOT_NUMERIC_PH,Published source reports 400 uatm pCO2 and a 48-h Cd LC50 of 12.03 mg/L. A verified numerical pH value/scale is not used in this audit.
+PH_EXT_01,ENV_WEI2021,Wei et al. (2021),10.1016/j.marpolbul.2021.113145,Tigriopus japonicus,Cd,48,1000,NA,NA,9.08,DIRECT_ACIDIFICATION_NOT_NUMERIC_PH,Published source reports 1000 uatm pCO2 and a 48-h Cd LC50 of 9.08 mg/L. A verified numerical pH value/scale is not used in this audit.

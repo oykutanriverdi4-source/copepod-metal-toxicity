@@ -1,0 +1,16 @@
+Estimand,Method,Baseline,Ratio,Lower,Upper
+Cu: Nauplii / Adult,"96-h Cu-Cd
+Stage LMM",TRUE,0.4309357024657329,0.147758277996758,1.2568201401461194
+Cd: Nauplii / Adult,"96-h Cu-Cd
+Stage LMM",TRUE,0.5488024327521055,0.13496668522720912,2.2315441005875054
+Interaction: Cd / Cu ratio of Stage contrasts,"96-h Cu-Cd
+Stage LMM",TRUE,1.273513495428579,0.24391012805490098,6.649320534462031
+Cu: Nauplii / Adult,Complete-case,FALSE,0.40553070890873577,0.146,1.125
+Cd: Nauplii / Adult,Complete-case,FALSE,0.6973509299068826,0.186,2.617
+Interaction: Cd / Cu ratio of Stage contrasts,Complete-case,FALSE,1.7196007961602255,0.366,8.076
+Cu: Nauplii / Adult,"Temperature +
+salinity adjusted",FALSE,0.4420475981857744,0.158,1.24
+Cd: Nauplii / Adult,"Temperature +
+salinity adjusted",FALSE,0.7205191202647279,0.19,2.726
+Interaction: Cd / Cu ratio of Stage contrasts,"Temperature +
+salinity adjusted",FALSE,1.6299582289822174,0.345,7.704

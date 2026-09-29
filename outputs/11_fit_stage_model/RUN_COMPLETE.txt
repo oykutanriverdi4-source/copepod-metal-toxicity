@@ -1,0 +1,5 @@
+STATUS: 11 FIT STAGE MODEL = PASS
+Primary domain: 96-h Cu-Cd Adult/Nauplii
+Results: 69
+References: 31
+Species: 19

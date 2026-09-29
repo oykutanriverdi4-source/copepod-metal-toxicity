@@ -1,0 +1,14 @@
+Metal,Source_Origin,Results,Metal_total,Share_pct
+Ag,ECOTOX,18,19,94.7
+Ag,WoS_supplemental,1,19,5.3
+Cd,ECOTOX,42,57,73.7
+Cd,WoS_supplemental,15,57,26.3
+Cu,ECOTOX,105,113,92.9
+Cu,WoS_supplemental,8,113,7.1
+Hg,ECOTOX,25,37,67.6
+Hg,WoS_supplemental,12,37,32.4
+Ni,ECOTOX,13,25,52
+Ni,WoS_supplemental,12,25,48
+Pb,ECOTOX,4,4,100
+Zn,ECOTOX,40,49,81.6
+Zn,WoS_supplemental,9,49,18.4

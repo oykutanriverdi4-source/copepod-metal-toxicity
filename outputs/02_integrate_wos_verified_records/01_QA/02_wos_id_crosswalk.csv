@@ -1,0 +1,58 @@
+Audit_ID,Reference_ID,Test_ID,Original_Result_ID,Final_Result_ID,Reference,Species,Metal,Duration_h
+A02,W_001,W_001_T01,W_001_T01_R01,W_001_T01_R01,Panneerselvam et al. (2018),Oithona similis,Ni,96
+A02,W_001,W_001_T02,W_001_T02_R01,W_001_T02_R01,Panneerselvam et al. (2018),Acartia danae,Ni,96
+A03,W_002,W_002_T01,W_002_R01,W_002_T01_R01,Kadiene et al. (2017),Pseudodiaptomus annandalei,Cd,72
+A03,W_002,W_002_T01,W_002_R02,W_002_T01_R02,Kadiene et al. (2017),Pseudodiaptomus annandalei,Cd,96
+A03,W_002,W_002_T02,W_002_R03,W_002_T02_R01,Kadiene et al. (2017),Pseudodiaptomus annandalei,Cd,72
+A03,W_002,W_002_T02,W_002_R04,W_002_T02_R02,Kadiene et al. (2017),Pseudodiaptomus annandalei,Cd,96
+A03,W_002,W_002_T03,W_002_R05,W_002_T03_R01,Kadiene et al. (2017),Eurytemora affinis,Cd,48
+A03,W_002,W_002_T03,W_002_R07,W_002_T03_R02,Kadiene et al. (2017),Eurytemora affinis,Cd,72
+A03,W_002,W_002_T03,W_002_R09,W_002_T03_R03,Kadiene et al. (2017),Eurytemora affinis,Cd,96
+A03,W_002,W_002_T04,W_002_R06,W_002_T04_R01,Kadiene et al. (2017),Eurytemora affinis,Cd,72
+A03,W_002,W_002_T04,W_002_R08,W_002_T04_R02,Kadiene et al. (2017),Eurytemora affinis,Cd,96
+A04,W_003,W_003_T01,W_003_T01_R01,W_003_T01_R01,Tollefsen et al. (2017),Calanus finmarchicus,Hg,24
+A04,W_003,W_003_T01,W_003_T01_R02,W_003_T01_R02,Tollefsen et al. (2017),Calanus finmarchicus,Hg,48
+A04,W_003,W_003_T01,W_003_T01_R03,W_003_T01_R03,Tollefsen et al. (2017),Calanus finmarchicus,Hg,72
+A04,W_003,W_003_T01,W_003_T01_R04,W_003_T01_R04,Tollefsen et al. (2017),Calanus finmarchicus,Hg,96
+A05,W_004,W_004_T01,W_004_T01_R01,W_004_T01_R01,Tlili et al. (2016),Pseudodiaptomus marinus,Ni,24
+A05,W_004,W_004_T01,W_004_T01_R02,W_004_T01_R02,Tlili et al. (2016),Pseudodiaptomus marinus,Ni,48
+A05,W_004,W_004_T01,W_004_T01_R03,W_004_T01_R03,Tlili et al. (2016),Pseudodiaptomus marinus,Ni,72
+A05,W_004,W_004_T01,W_004_T01_R04,W_004_T01_R04,Tlili et al. (2016),Pseudodiaptomus marinus,Ni,96
+A06,W_005,W_005_T01,W_005_T01_R01,W_005_T01_R01,Lavorante et al. (2013),Tisbe biminiensis,Zn,72
+A08,W_006,W_006_T01,W_006_T01_R01,W_006_T01_R01,Farkas et al. (2020),Calanus finmarchicus,Ag,96
+A09,W_007,W_007_T01,W_007_T01_R01,W_007_T01_R01,Vimercati et al. (2020),Tigriopus fulvus,Zn,96
+A09,W_007,W_007_T02,W_007_T02_R01,W_007_T02_R01,Vimercati et al. (2020),Tigriopus fulvus,Zn,96
+A09,W_007,W_007_T03,W_007_T03_R01,W_007_T03_R01,Vimercati et al. (2020),Tigriopus fulvus,Zn,96
+A10,W_008,W_008_T01,W_008_R01,W_008_T01_R01,Cherkashin (2020),Calanus glacialis,Zn,24
+A10,W_008,W_008_T01,W_008_R02,W_008_T01_R02,Cherkashin (2020),Calanus glacialis,Zn,48
+A10,W_008,W_008_T02,W_008_R03,W_008_T02_R01,Cherkashin (2020),Neocalanus plumchrus,Zn,24
+A10,W_008,W_008_T02,W_008_R04,W_008_T02_R02,Cherkashin (2020),Neocalanus plumchrus,Zn,48
+A11,W_009,W_009_T01,W_009_T01_R01,W_009_T01_R01,Kadiene et al. (2019),Pseudodiaptomus annandalei,Cd,96
+A11,W_009,W_009_T02,W_009_T02_R01,W_009_T02_R01,Kadiene et al. (2019),Pseudodiaptomus annandalei,Cd,96
+A12,W_010,W_010_T01,W_010_T01_R01,W_010_T01_R01,Tlili et al. (2019),Pseudodiaptomus marinus,Hg,24
+A12,W_010,W_010_T01,W_010_T01_R02,W_010_T01_R02,Tlili et al. (2019),Pseudodiaptomus marinus,Hg,48
+A12,W_010,W_010_T01,W_010_T01_R03,W_010_T01_R03,Tlili et al. (2019),Pseudodiaptomus marinus,Hg,72
+A12,W_010,W_010_T01,W_010_T01_R04,W_010_T01_R04,Tlili et al. (2019),Pseudodiaptomus marinus,Hg,96
+A13,W_011,W_011_T01,W_011_T01_R01,W_011_T01_R01,Charry et al. (2019),Gladioferens pectinatus,Cu,48
+A13,W_011,W_011_T02,W_011_T02_R01,W_011_T02_R01,Charry et al. (2019),Gladioferens pectinatus,Cu,96
+A14,W_012,W_012_T01,W_012_T01_R01,W_012_T01_R01,Yi et al. (2019),Tigriopus japonicus,Cd,96
+A15,W_013,W_013_T01,W_013_R01,W_013_T01_R01,Zidour et al. (2019),Eurytemora affinis,Cd,48
+A15,W_013,W_013_T01,W_013_R02,W_013_T01_R02,Zidour et al. (2019),Eurytemora affinis,Cd,72
+A15,W_013,W_013_T02,W_013_R04,W_013_T02_R01,Zidour et al. (2019),Eurytemora affinis,Cu,72
+A15,W_013,W_013_T02,W_013_R05,W_013_T02_R02,Zidour et al. (2019),Eurytemora affinis,Cu,96
+A15,W_013,W_013_T03,W_013_R06,W_013_T03_R01,Zidour et al. (2019),Eurytemora affinis,Ni,96
+A15,W_013,W_013_T04,W_013_R07,W_013_T04_R01,Zidour et al. (2019),Eurytemora affinis,Cu,48
+A15,W_013,W_013_T04,W_013_R08,W_013_T04_R02,Zidour et al. (2019),Eurytemora affinis,Cu,72
+A15,W_013,W_013_T04,W_013_R09,W_013_T04_R03,Zidour et al. (2019),Eurytemora affinis,Cu,96
+A15,W_013,W_013_T05,W_013_R10,W_013_T05_R01,Zidour et al. (2019),Eurytemora affinis,Cd,72
+A15,W_013,W_013_T06,W_013_R12,W_013_T06_R01,Zidour et al. (2019),Eurytemora affinis,Ni,72
+A15,W_013,W_013_T06,W_013_R13,W_013_T06_R02,Zidour et al. (2019),Eurytemora affinis,Ni,96
+A16,W_014,W_014_T01,W_014_T01_R01,W_014_T01_R01,Biandolino et al. (2018),Tigriopus fulvus,Cu,48
+A17,W_015,W_015_T01,W_015_R01,W_015_T01_R01,Øverjordet et al. (2014),Calanus finmarchicus,Hg,48
+A17,W_015,W_015_T01,W_015_R02,W_015_T01_R02,Øverjordet et al. (2014),Calanus finmarchicus,Hg,96
+A17,W_015,W_015_T02,W_015_R03,W_015_T02_R01,Øverjordet et al. (2014),Calanus glacialis,Hg,48
+A17,W_015,W_015_T02,W_015_R04,W_015_T02_R02,Øverjordet et al. (2014),Calanus glacialis,Hg,96
+A18,W_016,W_016_T01,W_016_R01,W_016_T01_R01,Mohammed et al. (2010),Tigriopus japonicus,Ni,48
+A18,W_016,W_016_T02,W_016_R02,W_016_T02_R01,Mohammed et al. (2010),Apocyclops borneoensis,Ni,48
+A18,W_016,W_016_T03,W_016_R03,W_016_T03_R01,Mohammed et al. (2010),Acartia pacifica,Ni,48
+A26,W_017,W_017_T01,W_017_R01,W_017_T01_R01,Yang et al. (2022),Tigriopus japonicus,Zn,96

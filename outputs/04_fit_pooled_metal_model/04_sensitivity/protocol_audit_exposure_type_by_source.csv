@@ -1,0 +1,13 @@
+Source_Origin,Metal,Exposure_Type,Results,References,Species,Percent_results
+ECOTOX,Cu,Renewal,32,11,7,50
+ECOTOX,Cu,Static,24,11,9,37.5
+ECOTOX,Cu,"Aquatic, unspecified",8,4,5,12.5
+ECOTOX,Cd,Static,22,9,6,73.33333333333333
+ECOTOX,Cd,Renewal,6,4,5,20
+ECOTOX,Cd,Flow-through,2,1,1,6.666666666666667
+ECOTOX,Zn,Static,17,7,7,73.91304347826087
+ECOTOX,Zn,Flow-through,3,1,1,13.043478260869565
+ECOTOX,Zn,Renewal,3,3,2,13.043478260869565
+WoS_supplemental,Cu,Waterborne,3,2,2,100
+WoS_supplemental,Cd,Waterborne,7,3,3,100
+WoS_supplemental,Zn,Waterborne,4,2,2,100

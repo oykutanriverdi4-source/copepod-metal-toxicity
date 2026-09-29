@@ -1,0 +1,39 @@
+Reference_ID,Species,n_metals,n_stages,n_cells,metals,stages
+E_14137,Tisbe battagliai,2,2,4,"Cd, Cu","Adult, Nauplii"
+E_111315,Tigriopus japonicus,2,1,2,"Cd, Cu",Adult
+E_153073,Paracyclopina nana,2,1,2,"Cd, Cu",Adult
+E_18833,Tigriopus brevicornis,1,2,2,Cu,"Adult, Nauplii"
+E_2183,Nitocra spinipes,2,1,2,"Cd, Cu",Adult
+E_8445,Acartia tonsa,2,1,2,"Cd, Cu",Adult
+E_10443,Acartia tonsa,1,1,1,Cd,Nauplii
+E_10443,Eurytemora affinis,1,1,1,Cd,Nauplii
+E_107036,Eurytemora affinis,1,1,1,Cu,Nauplii
+E_111599,Tigriopus japonicus,1,1,1,Cu,Adult
+E_115854,Tigriopus japonicus,1,1,1,Cu,Adult
+E_14601,Acartia clausi,1,1,1,Cd,Adult
+E_14601,Eurytemora affinis,1,1,1,Cd,Adult
+E_156333,Nitocra spinipes,1,1,1,Cu,Adult
+E_156333,Robertgurneya hopkinsi,1,1,1,Cu,Adult
+E_156339,Tigriopus japonicus,1,1,1,Cu,Adult
+E_166160,Tigriopus japonicus,1,1,1,Cu,Adult
+E_166161,Amphiascoides atopus,1,1,1,Cu,Adult
+E_166814,Tigriopus fulvus,1,1,1,Cu,Nauplii
+E_169694,Tigriopus japonicus,1,1,1,Cu,Adult
+E_169914,Tigriopus fulvus,1,1,1,Cu,Nauplii
+E_18395,Eurytemora affinis,1,1,1,Cu,Nauplii
+E_192310,Acartia danae,1,1,1,Cd,Adult
+E_192310,Oithona similis,1,1,1,Cd,Adult
+E_19281,Tigriopus brevicornis,1,1,1,Cd,Nauplii
+E_2977,Tigriopus californicus,1,1,1,Cu,Nauplii
+E_3735,Acartia clausi,1,1,1,Cu,Adult
+E_3735,Eurytemora affinis,1,1,1,Cu,Adult
+E_3735,Pseudodiaptomus coronatus,1,1,1,Cu,Adult
+E_6079,Calanoida,1,1,1,Cu,Adult
+E_9029,Acartia tonsa,1,1,1,Cd,Adult
+E_9365,Amphiascus tenuiremis,1,1,1,Cd,Adult
+W_002,Eurytemora affinis,1,1,1,Cd,Adult
+W_002,Pseudodiaptomus annandalei,1,1,1,Cd,Adult
+W_009,Pseudodiaptomus annandalei,1,1,1,Cd,Nauplii
+W_011,Gladioferens pectinatus,1,1,1,Cu,Adult
+W_012,Tigriopus japonicus,1,1,1,Cd,Adult
+W_013,Eurytemora affinis,1,1,1,Cu,Adult

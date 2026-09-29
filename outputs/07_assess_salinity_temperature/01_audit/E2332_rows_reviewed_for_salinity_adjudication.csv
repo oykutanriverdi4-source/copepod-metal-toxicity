@@ -1,0 +1,6 @@
+Reference_ID,Reference_Number,Test_ID,Result_ID,Species,Metal,Chemical_Name,Duration_days,Exposure_Type,Conc_Type,Temperature,Salinity,LC50_umol_L
+E_2332,2332,E_T1037866,E_R104471,Nitocra spinipes,Cd,Cadmium chloride (CdCl2),4,Flow-through,Total,NA,7,5.871154838365328
+E_2332,2332,E_T1037865,E_R104470,Nitocra spinipes,Cd,Cadmium chloride (CdCl2),4,Flow-through,Total,NA,15,6.938637536249933
+E_2332,2332,E_T1037878,E_R104483,Nitocra spinipes,Zn,Zinc chloride (ZnCl2),4,Flow-through,Total,NA,7,19.88375650045886
+E_2332,2332,E_T1037871,E_R104476,Nitocra spinipes,Zn,"Sulfuric acid, Zinc salt (1:1)",4,Flow-through,Total,NA,15,36.708473539308656
+E_2332,2332,E_T1037874,E_R104479,Nitocra spinipes,Zn,"Sulfuric acid, Zinc salt (1:1)",4,Flow-through,Total,NA,25,42.82655246252677

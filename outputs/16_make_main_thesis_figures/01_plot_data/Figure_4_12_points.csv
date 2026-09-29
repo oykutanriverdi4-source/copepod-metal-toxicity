@@ -1,0 +1,51 @@
+Reference_ID,Test_ID,Species,Metal,Stage_Label,Duration_days,LC50_duration_context,Source_Origin,Endpoint_Extrapolation_Flag,Comparison_ID,LC50_baseline,ln_relative_LC50,Source_label
+E_119554,NA,Tisbe battagliai,Cu,Gestation,2,4.028577723224121,ECOTOX,NO,E_119554 | Tisbe battagliai | Cu | Gestation,4.028577723224121,0,ECOTOX
+E_119554,NA,Tisbe battagliai,Cu,Gestation,3,2.4706511818210433,ECOTOX,NO,E_119554 | Tisbe battagliai | Cu | Gestation,4.028577723224121,-0.48893163913125426,ECOTOX
+E_166160,NA,Tigriopus japonicus,Cu,Adult,3,9.284612721493094,ECOTOX,NO,E_166160 | Tigriopus japonicus | Cu | Adult,9.284612721493094,0,ECOTOX
+E_166160,NA,Tigriopus japonicus,Cu,Adult,4,5.193088471343594,ECOTOX,NO,E_166160 | Tigriopus japonicus | Cu | Adult,9.284612721493094,-0.5810298824392395,ECOTOX
+E_8445,NA,Acartia tonsa,Hg,F2 generation,1,0.09970487357422032,ECOTOX,NO,E_8445 | Acartia tonsa | Hg | F2 generation,0.09970487357422032,0,ECOTOX
+E_8445,NA,Acartia tonsa,Hg,F2 generation,2,0.09471962989550928,ECOTOX,NO,E_8445 | Acartia tonsa | Hg | F2 generation,0.09970487357422032,-0.05129329438755069,ECOTOX
+E_8445,NA,Acartia tonsa,Hg,F2 generation,3,0.08474914253808724,ECOTOX,NO,E_8445 | Acartia tonsa | Hg | F2 generation,0.09970487357422032,-0.1625189294977752,ECOTOX
+E_8445,NA,Acartia tonsa,Hg,F2 generation,4,0.06979341150195421,ECOTOX,NO,E_8445 | Acartia tonsa | Hg | F2 generation,0.09970487357422032,-0.35667494393873245,ECOTOX
+E_8445,NA,Acartia tonsa,Hg,F6 generation,1,0.10967536093164232,ECOTOX,NO,E_8445 | Acartia tonsa | Hg | F6 generation,0.10967536093164232,0,ECOTOX
+E_8445,NA,Acartia tonsa,Hg,F6 generation,2,0.09471962989550928,ECOTOX,NO,E_8445 | Acartia tonsa | Hg | F6 generation,0.10967536093164232,-0.1466034741918754,ECOTOX
+E_8445,NA,Acartia tonsa,Hg,F6 generation,3,0.07976389885937625,ECOTOX,NO,E_8445 | Acartia tonsa | Hg | F6 generation,0.10967536093164232,-0.3184537311185344,ECOTOX
+E_8445,NA,Acartia tonsa,Hg,F6 generation,4,0.07477865518066523,ECOTOX,NO,E_8445 | Acartia tonsa | Hg | F6 generation,0.10967536093164232,-0.3829922522561056,ECOTOX
+W_002,W_002_T01,Pseudodiaptomus annandalei,Cd,Adult male,3,2.243492803387478,WoS_supplemental,NO,W_002 | W_002_T01 | Pseudodiaptomus annandalei | Cd | Adult male,2.243492803387478,0,Supplementary literature
+W_002,W_002_T01,Pseudodiaptomus annandalei,Cd,Adult male,4,1.0727311544825378,WoS_supplemental,NO,W_002 | W_002_T01 | Pseudodiaptomus annandalei | Cd | Adult male,2.243492803387478,-0.7378260614153178,Supplementary literature
+W_002,W_002_T02,Pseudodiaptomus annandalei,Cd,Adult female,3,4.108562990374865,WoS_supplemental,YES,W_002 | W_002_T02 | Pseudodiaptomus annandalei | Cd | Adult female,4.108562990374865,0,Supplementary literature
+W_002,W_002_T02,Pseudodiaptomus annandalei,Cd,Adult female,4,2.1301617236287296,WoS_supplemental,YES,W_002 | W_002_T02 | Pseudodiaptomus annandalei | Cd | Adult female,4.108562990374865,-0.6568754265670513,Supplementary literature
+W_002,W_002_T03,Eurytemora affinis,Cd,Adult female,2,3.251730211539488,WoS_supplemental,NO,W_002 | W_002_T03 | Eurytemora affinis | Cd | Adult female,3.251730211539488,0,Supplementary literature
+W_002,W_002_T03,Eurytemora affinis,Cd,Adult female,3,1.413347091999217,WoS_supplemental,NO,W_002 | W_002_T03 | Eurytemora affinis | Cd | Adult female,3.251730211539488,-0.8332265120294338,Supplementary literature
+W_002,W_002_T03,Eurytemora affinis,Cd,Adult female,4,0.8009678509794155,WoS_supplemental,NO,W_002 | W_002_T03 | Eurytemora affinis | Cd | Adult female,3.251730211539488,-1.4011216962877644,Supplementary literature
+W_002,W_002_T04,Eurytemora affinis,Cd,Adult male,3,2.50805059867988,WoS_supplemental,NO,W_002 | W_002_T04 | Eurytemora affinis | Cd | Adult male,2.50805059867988,0,Supplementary literature
+W_002,W_002_T04,Eurytemora affinis,Cd,Adult male,4,1.1364242887896523,WoS_supplemental,NO,W_002 | W_002_T04 | Eurytemora affinis | Cd | Adult male,2.50805059867988,-0.7916190532589658,Supplementary literature
+W_003,W_003_T01,Calanus finmarchicus,Hg,Copepodite V (CV),1,1.390882986360373,WoS_supplemental,YES,W_003 | W_003_T01 | Calanus finmarchicus | Hg | Copepodite V (CV),1.390882986360373,0,Supplementary literature
+W_003,W_003_T01,Calanus finmarchicus,Hg,Copepodite V (CV),2,0.3639227885459041,WoS_supplemental,YES,W_003 | W_003_T01 | Calanus finmarchicus | Hg | Copepodite V (CV),1.390882986360373,-1.3407523406729744,Supplementary literature
+W_003,W_003_T01,Calanus finmarchicus,Hg,Copepodite V (CV),3,0.2392916965781287,WoS_supplemental,YES,W_003 | W_003_T01 | Calanus finmarchicus | Hg | Copepodite V (CV),1.390882986360373,-1.760010770913475,Supplementary literature
+W_003,W_003_T01,Calanus finmarchicus,Hg,Copepodite V (CV),4,0.16949828507617448,WoS_supplemental,YES,W_003 | W_003_T01 | Calanus finmarchicus | Hg | Copepodite V (CV),1.390882986360373,-2.1048512572052043,Supplementary literature
+W_004,W_004_T01,Pseudodiaptomus marinus,Ni,Adult,1,9.05365850334109,WoS_supplemental,YES,W_004 | W_004_T01 | Pseudodiaptomus marinus | Ni | Adult,9.05365850334109,0,Supplementary literature
+W_004,W_004_T01,Pseudodiaptomus marinus,Ni,Adult,2,5.347108874251619,WoS_supplemental,YES,W_004 | W_004_T01 | Pseudodiaptomus marinus | Ni | Adult,9.05365850334109,-0.5266129130313181,Supplementary literature
+W_004,W_004_T01,Pseudodiaptomus marinus,Ni,Adult,3,3.1095489441743025,WoS_supplemental,YES,W_004 | W_004_T01 | Pseudodiaptomus marinus | Ni | Adult,9.05365850334109,-1.068691248890686,Supplementary literature
+W_004,W_004_T01,Pseudodiaptomus marinus,Ni,Adult,4,2.3200223534503026,WoS_supplemental,YES,W_004 | W_004_T01 | Pseudodiaptomus marinus | Ni | Adult,9.05365850334109,-1.3615921097961312,Supplementary literature
+W_008,W_008_T01,Calanus glacialis,Zn,Copepodite IV–V,1,52.40134597736312,WoS_supplemental,NO,W_008 | W_008_T01 | Calanus glacialis | Zn | Copepodite IV–V,52.40134597736312,0,Supplementary literature
+W_008,W_008_T01,Calanus glacialis,Zn,Copepodite IV–V,2,14.713979810339554,WoS_supplemental,NO,W_008 | W_008_T01 | Calanus glacialis | Zn | Copepodite IV–V,52.40134597736312,-1.270134228218359,Supplementary literature
+W_008,W_008_T02,Neocalanus plumchrus,Zn,Copepodite IV–V,1,91.55705108595902,WoS_supplemental,NO,W_008 | W_008_T02 | Neocalanus plumchrus | Zn | Copepodite IV–V,91.55705108595902,0,Supplementary literature
+W_008,W_008_T02,Neocalanus plumchrus,Zn,Copepodite IV–V,2,67.00825940654637,WoS_supplemental,NO,W_008 | W_008_T02 | Neocalanus plumchrus | Zn | Copepodite IV–V,91.55705108595902,-0.3121464005987455,Supplementary literature
+W_010,W_010_T01,Pseudodiaptomus marinus,Hg,Adult,1,0.6350001473318208,WoS_supplemental,YES,W_010 | W_010_T01 | Pseudodiaptomus marinus | Hg | Adult,0.6350001473318208,0,Supplementary literature
+W_010,W_010_T01,Pseudodiaptomus marinus,Hg,Adult,2,0.3341485694080208,WoS_supplemental,YES,W_010 | W_010_T01 | Pseudodiaptomus marinus | Hg | Adult,0.6350001473318208,-0.6420395182501506,Supplementary literature
+W_010,W_010_T01,Pseudodiaptomus marinus,Hg,Adult,3,0.22339187317676873,WoS_supplemental,YES,W_010 | W_010_T01 | Pseudodiaptomus marinus | Hg | Adult,0.6350001473318208,-1.0446977228395335,Supplementary literature
+W_010,W_010_T01,Pseudodiaptomus marinus,Hg,Adult,4,0.15624539588060232,WoS_supplemental,YES,W_010 | W_010_T01 | Pseudodiaptomus marinus | Hg | Adult,0.6350001473318208,-1.4021974090930562,Supplementary literature
+W_013,W_013_T01,Eurytemora affinis,Cd,Adult female,2,2.126069706620172,WoS_supplemental,NO,W_013 | W_013_T01 | Eurytemora affinis | Cd | Adult female,2.126069706620172,0,Supplementary literature
+W_013,W_013_T01,Eurytemora affinis,Cd,Adult female,3,1.0763783870336434,WoS_supplemental,NO,W_013 | W_013_T01 | Eurytemora affinis | Cd | Adult female,2.126069706620172,-0.6806730063347697,Supplementary literature
+W_013,W_013_T02,Eurytemora affinis,Cu,Adult female,3,3.5250055078211067,WoS_supplemental,NO,W_013 | W_013_T02 | Eurytemora affinis | Cu | Adult female,3.5250055078211067,0,Supplementary literature
+W_013,W_013_T02,Eurytemora affinis,Cu,Adult female,4,0.5979920057910805,WoS_supplemental,NO,W_013 | W_013_T02 | Eurytemora affinis | Cu | Adult female,3.5250055078211067,-1.7740598921286543,Supplementary literature
+W_013,W_013_T04,Eurytemora affinis,Cu,Adult male,2,2.2849589273911812,WoS_supplemental,NO,W_013 | W_013_T04 | Eurytemora affinis | Cu | Adult male,2.2849589273911812,0,Supplementary literature
+W_013,W_013_T04,Eurytemora affinis,Cu,Adult male,3,0.8025682182985554,WoS_supplemental,NO,W_013 | W_013_T04 | Eurytemora affinis | Cu | Adult male,2.2849589273911812,-1.0462864696663698,Supplementary literature
+W_013,W_013_T04,Eurytemora affinis,Cu,Adult male,4,0.3934157932836056,WoS_supplemental,NO,W_013 | W_013_T04 | Eurytemora affinis | Cu | Adult male,2.2849589273911812,-1.7592362775224948,Supplementary literature
+W_013,W_013_T06,Eurytemora affinis,Ni,Adult male,3,1.4993167885997405,WoS_supplemental,NO,W_013 | W_013_T06 | Eurytemora affinis | Ni | Adult male,1.4993167885997405,0,Supplementary literature
+W_013,W_013_T06,Eurytemora affinis,Ni,Adult male,4,1.5333921701588251,WoS_supplemental,NO,W_013 | W_013_T06 | Eurytemora affinis | Ni | Adult male,1.4993167885997405,0.02247285585205835,Supplementary literature
+W_015,W_015_T01,Calanus finmarchicus,Hg,Copepodite V (CV),2,0.3609316423386774,WoS_supplemental,NO,W_015 | W_015_T01 | Calanus finmarchicus | Hg | Copepodite V (CV),0.3609316423386774,0,Supplementary literature
+W_015,W_015_T01,Calanus finmarchicus,Hg,Copepodite V (CV),4,0.20738613703437825,WoS_supplemental,NO,W_015 | W_015_T01 | Calanus finmarchicus | Hg | Copepodite V (CV),0.3609316423386774,-0.5541061321244529,Supplementary literature
+W_015,W_015_T02,Calanus glacialis,Hg,Copepodite V (CV),2,0.3674124591210019,WoS_supplemental,NO,W_015 | W_015_T02 | Calanus glacialis | Hg | Copepodite V (CV),0.3674124591210019,0,Supplementary literature
+W_015,W_015_T02,Calanus glacialis,Hg,Copepodite V (CV),4,0.17597910185849883,WoS_supplemental,NO,W_015 | W_015_T02 | Calanus glacialis | Hg | Copepodite V (CV),0.3674124591210019,-0.7361198352560401,Supplementary literature

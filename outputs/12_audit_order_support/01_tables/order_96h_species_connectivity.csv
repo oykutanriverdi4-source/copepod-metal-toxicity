@@ -1,0 +1,19 @@
+Order,Species,n_metals,metals,n_references
+Calanoida,Eurytemora affinis,2,Cd | Cu,9
+Calanoida,Acartia tonsa,2,Cd | Cu,4
+Calanoida,Acartia clausi,2,Cd | Cu,2
+Calanoida,Pseudodiaptomus annandalei,1,Cd,2
+Calanoida,Acartia danae,1,Cd,1
+Calanoida,Calanoida,1,Cu,1
+Calanoida,Gladioferens pectinatus,1,Cu,1
+Calanoida,Pseudodiaptomus coronatus,1,Cu,1
+Harpacticoida,Tigriopus japonicus,2,Cd | Cu,7
+Harpacticoida,Nitocra spinipes,2,Cd | Cu,4
+Harpacticoida,Amphiascus tenuiremis,2,Cd | Cu,2
+Harpacticoida,Tigriopus brevicornis,2,Cd | Cu,2
+Harpacticoida,Tisbe battagliai,2,Cd | Cu,1
+Harpacticoida,Tigriopus fulvus,1,Cu,2
+Harpacticoida,Amphiascoides atopus,1,Cu,1
+Harpacticoida,Robertgurneya hopkinsi,1,Cu,1
+Harpacticoida,Tigriopus californicus,1,Cu,1
+Harpacticoida,Tisbe furcata,1,Cu,1

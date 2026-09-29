@@ -1,0 +1,5 @@
+Reference_ID,Source_Context_ID,Source_Origin,n_metals,Metals,Results,Species,Duration_days,Biological_Context
+W_013,W013_MALE_72H,WoS_supplemental,3,Cd | Cu | Ni,3,Eurytemora affinis,3,Adult male
+W_013,W013_FEMALE_72H,WoS_supplemental,2,Cd | Cu,2,Eurytemora affinis,3,Adult female
+W_013,W013_FEMALE_96H,WoS_supplemental,2,Cu | Ni,2,Eurytemora affinis,4,Adult female
+W_013,W013_MALE_96H,WoS_supplemental,2,Cu | Ni,2,Eurytemora affinis,4,Adult male

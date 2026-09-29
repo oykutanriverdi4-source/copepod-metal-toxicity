@@ -1,0 +1,7 @@
+Role,Path
+Input: stage support audit objects,outputs/10_audit_stage_support/03_objects/stage_support_audit_objects.rds
+Output: primary model contrasts,outputs/11_fit_stage_model/01_model/stage_metal_specific_contrasts.csv
+Output: LORO summary,outputs/11_fit_stage_model/03_robustness/stage_LORO_summary.csv
+Output: LOSO summary,outputs/11_fit_stage_model/03_robustness/stage_LOSO_summary.csv
+Output: environmental sensitivity,outputs/11_fit_stage_model/04_sensitivity/stage_environmental_sensitivity_comparison.csv
+Output: reusable analysis objects,outputs/11_fit_stage_model/06_objects/stage_model_analysis_objects.rds

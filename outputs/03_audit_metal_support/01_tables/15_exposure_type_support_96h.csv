@@ -1,0 +1,24 @@
+Metal,Exposure_Type,Results,References,Species
+Ag,"Aquatic, unspecified",2,1,2
+Ag,Renewal,6,3,2
+Ag,Static,9,3,2
+Ag,Waterborne,1,1,1
+Cd,Flow-through,2,1,1
+Cd,Renewal,6,4,5
+Cd,Static,22,9,6
+Cd,Waterborne,7,3,3
+Cu,"Aquatic, unspecified",8,4,5
+Cu,Renewal,32,11,7
+Cu,Static,24,11,9
+Cu,Waterborne,3,2,2
+Hg,Static,8,3,5
+Hg,Waterborne,4,3,3
+Ni,Renewal,1,1,1
+Ni,Static,6,3,3
+Ni,Waterborne,5,3,4
+Pb,"Aquatic, unspecified",2,2,1
+Pb,Renewal,2,1,2
+Zn,Flow-through,3,1,1
+Zn,Renewal,3,3,2
+Zn,Static,17,7,7
+Zn,Waterborne,4,2,2

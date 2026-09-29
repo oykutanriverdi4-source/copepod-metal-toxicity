@@ -1,0 +1,4 @@
+Estimand,Expected,ECOTOX_reproduction,Absolute_difference,Match
+Cu Nauplii / Adult,0.3625,0.3624963464302007,3.653569799311196e-6,TRUE
+Cd Nauplii / Adult,0.6745,0.6745460591292282,4.60591292281709e-5,TRUE
+Cd-vs-Cu ratio of ratios,1.8608,1.86083546985242,3.5469852420089154e-5,TRUE

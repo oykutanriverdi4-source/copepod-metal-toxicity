@@ -1,0 +1,2 @@
+Comparison_ID,Reference_ID,Reference,Species,Metal,Duration_h,low_pCO2_uatm,high_pCO2_uatm,LC50_low_pCO2_mg_L,LC50_high_pCO2_mg_L,ratio_highCO2_lowCO2,ln_ratio_highCO2_lowCO2,Direction,pH_numeric_status,Final_use
+PH_EXT_01,ENV_WEI2021,Wei et al. (2021),Tigriopus japonicus,Cd,48,400,1000,12.03,9.08,0.7547797173732337,-0.28132933737338545,Higher pCO2 / acidification -> lower LC50,NOT SOURCE-VERIFIED,DIRECT ACIDIFICATION CONTEXT; NOT A QUANTITATIVE pH COEFFICIENT

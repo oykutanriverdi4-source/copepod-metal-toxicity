@@ -1,0 +1,7 @@
+Comparison,Analysis_Role,Matched_contexts,References,First_metal_lower_contexts,Second_metal_lower_contexts,Equal_contexts,Scope
+Cd-Zn,CORE,7,4,5,2,0,COMBINED
+Cd-Zn,CORE,7,4,5,2,0,ECOTOX_FROZEN
+Cu-Cd,CORE,21,10,15,6,0,COMBINED
+Cu-Cd,CORE,19,9,15,4,0,ECOTOX_FROZEN
+Cu-Zn,CORE,6,4,4,2,0,COMBINED
+Cu-Zn,CORE,6,4,4,2,0,ECOTOX_FROZEN

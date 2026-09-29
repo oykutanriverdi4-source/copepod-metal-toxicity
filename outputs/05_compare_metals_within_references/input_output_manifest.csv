@@ -1,0 +1,7 @@
+Role,Path,Exists,MD5
+Input: canonical combined dataset,data/processed/combined_ecotox_wos_harmonized.csv,TRUE,e5ea0198c0e93e8983f0c0f6635b9bf9
+Input: source adjudication ledger,data/curated/source_verification/combined_source_adjudication_rows.csv,TRUE,6a91671040bd27e6d57067811a01d4f0
+Input: accepted source-verified rows,data/curated/source_verification/combined_source_verified_rows_used.csv,TRUE,22796533e27e06b187eeb84bd55823f5
+Output: main metal effect summary,outputs/05_compare_metals_within_references/01_tables/metal_effect_summary.csv,TRUE,a163bba09120e063a48d27d0b9665669
+Output: thesis-interpreted summary,outputs/05_compare_metals_within_references/01_tables/thesis_within_reference_metal_summary.csv,TRUE,056379c3e8fd8a04b69e01801e6774ca
+Output: R analysis objects,outputs/05_compare_metals_within_references/03_objects/within_reference_metal_analysis_objects.rds,TRUE,a56546803288b4fe6552b114b82a715d

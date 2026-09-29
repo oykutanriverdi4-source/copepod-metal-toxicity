@@ -1,0 +1,2 @@
+Series_ID,Reference_ID,Species,Metal,Duration_days,Source_Origin,earliest_stage,latest_stage,LC50_earliest,LC50_latest,ratio_latest_earliest,ln_ratio_latest_earliest,direction
+10,W_009,Pseudodiaptomus annandalei,Cd,4,WoS_supplemental,Nauplii,Copepodid,0.3584962727062465,1.0710409735442206,2.987593052109182,1.0944680639220836,Later stage higher LC50 / earlier stage more sensitive

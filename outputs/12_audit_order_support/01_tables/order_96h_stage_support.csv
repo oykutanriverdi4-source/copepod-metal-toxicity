@@ -1,0 +1,25 @@
+Metal,Order,Lifestage,Results,References,Species
+Cd,Calanoida,Adult,12,5,5
+Cd,Calanoida,Copepodite,1,1,1
+Cd,Calanoida,F2 generation,1,1,1
+Cd,Calanoida,F6 generation,1,1,1
+Cd,Calanoida,Multiple,1,1,1
+Cd,Calanoida,Nauplii,3,2,3
+Cd,Calanoida,Neonate,3,1,1
+Cd,Calanoida,NA,2,1,1
+Cd,Harpacticoida,Adult,5,5,4
+Cd,Harpacticoida,Copepodid,1,1,1
+Cd,Harpacticoida,Nauplii,2,2,2
+Cd,Harpacticoida,NA,3,2,2
+Cu,Calanoida,Adult,8,5,6
+Cu,Calanoida,F2 generation,1,1,1
+Cu,Calanoida,F6 generation,1,1,1
+Cu,Calanoida,Juvenile,1,1,1
+Cu,Calanoida,Multiple,5,1,1
+Cu,Calanoida,Nauplii,4,2,1
+Cu,Calanoida,NA,3,3,2
+Cu,Harpacticoida,Adult,22,11,6
+Cu,Harpacticoida,Copepodite,7,2,2
+Cu,Harpacticoida,Egg,1,1,1
+Cu,Harpacticoida,Nauplii,10,5,4
+Cu,Harpacticoida,NA,3,3,3

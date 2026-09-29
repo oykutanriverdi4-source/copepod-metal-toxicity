@@ -1,0 +1,30 @@
+Reference_ID,Source_Context_ID,Source_Origin,n_metals,Metals,Results,Species,Duration_days,Biological_Context
+E_2183,2183_NITROCA_ADULT_96H,ECOTOX,5,Cd | Cu | Hg | Ni | Zn,5,Nitocra spinipes,4,Adult
+E_111315,111315_ADULT_96H,ECOTOX,3,Cd | Cu | Zn,3,Tigriopus japonicus,4,Adult
+E_166028,166028_NAUPLII_48H,ECOTOX,3,Cd | Cu | Hg,3,Tigriopus fulvus,2,Nauplii
+E_5563,5563_ACARTIA_SIMPLEX_24H,ECOTOX,3,Cd | Cu | Zn,3,Acartia simplex,1,Multiple
+E_5563,5563_PARACALANUS_PARVUS_24H,ECOTOX,3,Cd | Cu | Zn,3,Paracalanus parvus,1,Multiple
+E_5563,5563_SCUTELLIDIUM_SP_24H,ECOTOX,3,Cd | Cu | Zn,3,Scutellidium sp.,1,Multiple
+E_8445,8445_F1,ECOTOX,3,Cd | Cu | Hg,3,Acartia tonsa,4,
+E_8445,8445_F2,ECOTOX,3,Cd | Cu | Hg,3,Acartia tonsa,4,F2 generation
+E_8445,8445_F6,ECOTOX,3,Cd | Cu | Hg,3,Acartia tonsa,4,F6 generation
+W_013,W013_MALE_72H,WoS_supplemental,3,Cd | Cu | Ni,3,Eurytemora affinis,3,Adult male
+E_11097,11097_COPEPODID_10D,ECOTOX,2,Cd | Cu,2,Tisbe holothuriae,2,Copepodid
+E_11097,11097_NAUPLIUS_1D,ECOTOX,2,Cd | Cu,2,Tisbe holothuriae,2,Nauplii
+E_11097,11097_NAUPLIUS_5D,ECOTOX,2,Cd | Cu,2,Tisbe holothuriae,2,Nauplii
+E_11097,11097_OVIG_BAND,ECOTOX,2,Cd | Cu,2,Tisbe holothuriae,2,
+E_11097,11097_OVIG_SAC,ECOTOX,2,Cd | Cu,2,Tisbe holothuriae,2,
+E_14137,14137_ADULT_96H,ECOTOX,2,Cd | Cu,2,Tisbe battagliai,4,Adult
+E_14137,14137_NAUPLII_96H,ECOTOX,2,Cd | Cu,2,Tisbe battagliai,4,Nauplii
+E_153073,153073_ADULT_96H,ECOTOX,2,Cd | Cu,2,Paracyclopina nana,4,Adult
+E_15726,15726_ADULT_48H,ECOTOX,2,Cd | Cu,2,Tisbe holothuriae,2,Adult
+E_169337,169337_NITROCA_96H,ECOTOX,2,Cu | Zn,2,Nitocra spinipes,4,
+E_192310,192310_ACARTIA_DANAE_ADULT_96H,ECOTOX,2,Cd | Pb,2,Acartia danae,4,Adult
+E_192310,192310_OITHONA_SIMILIS_ADULT_96H,ECOTOX,2,Cd | Pb,2,Oithona similis,4,Adult
+E_2332,2332_SAL15_96H,ECOTOX,2,Cd | Zn,2,Nitocra spinipes,4,
+E_2332,2332_SAL7_96H,ECOTOX,2,Cd | Zn,2,Nitocra spinipes,4,
+E_6079,6079_SAANICH_9C_48H,ECOTOX,2,Cu | Hg,2,Calanoida,2,
+E_8445,8445_BAY,ECOTOX,2,Cd | Cu,2,Acartia tonsa,4,Adult
+W_013,W013_FEMALE_72H,WoS_supplemental,2,Cd | Cu,2,Eurytemora affinis,3,Adult female
+W_013,W013_FEMALE_96H,WoS_supplemental,2,Cu | Ni,2,Eurytemora affinis,4,Adult female
+W_013,W013_MALE_96H,WoS_supplemental,2,Cu | Ni,2,Eurytemora affinis,4,Adult male

@@ -1,0 +1,31 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: ln_LC50 ~ Metal * Stage + (1 | Reference_ID) + (1 | Species)
+   Data: dat
+
+REML criterion at convergence: 186.1
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-1.66543 -0.40588 -0.03381  0.42369  1.41433 
+
+Random effects:
+ Groups       Name        Variance Std.Dev.
+ Reference_ID (Intercept) 2.0252   1.4231  
+ Species      (Intercept) 0.9889   0.9944  
+ Residual                 0.3869   0.6220  
+Number of obs: 60, groups:  Reference_ID, 27; Species, 16
+
+Fixed effects:
+                     Estimate Std. Error       df t value Pr(>|t|)  
+(Intercept)           0.86514    0.45091 26.05092   1.919   0.0661 .
+MetalCd               0.08654    0.35115 29.46520   0.246   0.8071  
+StageNauplii         -0.90256    0.48884 31.17041  -1.846   0.0744 .
+MetalCd:StageNauplii  0.54209    0.74022 34.86084   0.732   0.4689  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) MetlCd StgNpl
+MetalCd     -0.340              
+StageNaupli -0.263  0.222       
+MtlCd:StgNp  0.104 -0.413 -0.540

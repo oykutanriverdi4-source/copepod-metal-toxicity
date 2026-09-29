@@ -1,0 +1,5 @@
+STATUS: 13 FIT ORDER MODEL = PASS
+Primary domain: 96-h Cu-Cd; Calanoida vs Harpacticoida
+Results: 101
+References: 37
+Species: 18

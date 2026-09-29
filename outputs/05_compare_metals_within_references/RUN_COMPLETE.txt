@@ -1,0 +1,3 @@
+STATUS: 05 COMPARE METALS WITHIN REFERENCES = PASS
+Accepted source-verified rows: 70
+Frozen source-decision ledgers were read but not modified.

@@ -1,0 +1,5 @@
+STATUS: 10 AUDIT STAGE SUPPORT = PASS
+Stage model Results: 69
+References: 31
+Species: 19
+Final model domain: 96-h Cu-Cd Adult/Nauplii

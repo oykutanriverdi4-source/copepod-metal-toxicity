@@ -1,0 +1,6 @@
+STATUS: 14 ANALYZE METAL COVARIANCE = PASS
+Approved rows: 70
+Verified contexts: 29
+References: 14
+Bootstrap draws: 20000
+Seed: 20260908

@@ -1,0 +1,2 @@
+Reference_ID,Species,Metal,Duration_days,Expected_Temperature,Expected_Salinity,Expected_Stages,Final_stage_use,Stage_verification_status,Stage_verification_note
+W_009,Pseudodiaptomus annandalei,Cd,4,26,15,Nauplii | Copepodid,YES,SOURCE_VERIFIED_SAME_EXPERIMENT,"Kadiene et al. (2019): nauplii and copepodids were tested in the same 96-h Cd acute-toxicity experiment at 26 C and salinity 15; reported LC50s were 40.3 and 120.4 ug Cd/L, respectively."

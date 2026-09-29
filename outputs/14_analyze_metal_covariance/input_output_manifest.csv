@@ -1,0 +1,7 @@
+"Role","Path"
+"Input: combined harmonized dataset","C:/Users/oykut/OneDrive/Dokumente/GitHub/copepod-metal-toxicity/data/processed/combined_ecotox_wos_harmonized.csv"
+"Input: source-verified rows","C:/Users/oykut/OneDrive/Dokumente/GitHub/copepod-metal-toxicity/data/curated/source_verification/combined_source_verified_rows_used.csv"
+"Input: source-adjudication ledger","C:/Users/oykut/OneDrive/Dokumente/GitHub/copepod-metal-toxicity/data/curated/source_verification/combined_source_adjudication_rows.csv"
+"Output: main-scope overview","C:/Users/oykut/OneDrive/Dokumente/GitHub/copepod-metal-toxicity/outputs/14_analyze_metal_covariance/02_tables/metal_covariance_main_scope_overview.csv"
+"Output: LORO results","C:/Users/oykut/OneDrive/Dokumente/GitHub/copepod-metal-toxicity/outputs/14_analyze_metal_covariance/02_tables/metal_covariance_LORO.csv"
+"Output: reusable covariance objects","C:/Users/oykut/OneDrive/Dokumente/GitHub/copepod-metal-toxicity/outputs/14_analyze_metal_covariance/04_objects/metal_covariance_analysis_objects.rds"

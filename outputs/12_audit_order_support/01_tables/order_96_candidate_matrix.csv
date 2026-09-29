@@ -1,0 +1,8 @@
+Metal,Results_Calanoida,Results_Harpacticoida,References_Calanoida,References_Harpacticoida,Species_Calanoida,Species_Harpacticoida,WoS_Results_Calanoida,WoS_Results_Harpacticoida,Both_Orders,Min_Cell_Results,Min_Cell_References,Min_Cell_Species,Structural_note
+Cu,23,43,9,17,6,10,3,0,TRUE,23,9,6,Broad two-Order support
+Cd,24,11,9,7,5,5,6,1,TRUE,11,7,5,Broad two-Order support
+Ag,12,6,4,3,3,2,1,0,TRUE,6,3,2,Two-Order support present but limited
+Zn,8,19,2,11,4,6,0,4,TRUE,8,2,4,Two-Order support highly sparse
+Ni,9,2,5,2,4,2,4,0,TRUE,2,2,2,Two-Order support highly sparse
+Hg,11,1,5,1,7,1,4,0,TRUE,1,1,1,Two-Order support highly sparse
+Pb,3,0,3,0,2,0,0,0,FALSE,0,0,0,No complete Calanoida-Harpacticoida support

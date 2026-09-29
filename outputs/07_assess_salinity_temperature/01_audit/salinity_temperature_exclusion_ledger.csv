@@ -1,0 +1,4 @@
+Reference_label,Factor,Final_role,Reason
+E_9029,Temperature,PARTIAL_EXCLUSION,The 18 C Cd result is excluded from the direct temperature pair because salinity is 15 rather than 20.
+Li et al. (2014),Temperature,PARTIAL_EXCLUSION,The 38 C Cu endpoint is retained in the audit but excluded from the clean direct set because control survival was 23%.
+Holan et al. (2019),Temperature + salinity,CONTEXT_ONLY,The copepod LC50 experiment lasted 7 d and is outside the thesis 24-96 h direct environmental-comparison domain.

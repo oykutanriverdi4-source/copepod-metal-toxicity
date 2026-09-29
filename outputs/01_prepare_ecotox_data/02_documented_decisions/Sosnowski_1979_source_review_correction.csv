@@ -1,0 +1,2 @@
+Result_Number,Reference_Number,Previous_Status,Previous_Reason,Applied_Status,Applied_Reason,Duration_days,LC50_target_mg_L
+42366,8446,SECONDARY_MODIFIER,Deliberate modifier experiment,PRIMARY_KEEP,"Source review: Sosnowski (1979), pp. 449-452; natural populations, not a deliberate modifier experiment; waterborne Cu LC50, 72 h.",3,0.009

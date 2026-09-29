@@ -1,0 +1,5 @@
+STATUS: 15 AUDIT SEX-SPECIFIC EVIDENCE = PASS
+Quantitative Results: 304
+Explicit-sex quantitative Results: 25
+References with explicit-sex records: 5
+No sex-effects model was fitted.

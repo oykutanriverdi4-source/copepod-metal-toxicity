@@ -1,0 +1,4 @@
+"Role","File","Exists","MD5"
+"Combined harmonized dataset","data/processed/combined_ecotox_wos_harmonized.csv",TRUE,"e5ea0198c0e93e8983f0c0f6635b9bf9"
+"Source-adjudication ledger","data/curated/source_verification/combined_source_adjudication_rows.csv",TRUE,"6a91671040bd27e6d57067811a01d4f0"
+"Source-verified ledger","data/curated/source_verification/combined_source_verified_rows_used.csv",TRUE,"22796533e27e06b187eeb84bd55823f5"

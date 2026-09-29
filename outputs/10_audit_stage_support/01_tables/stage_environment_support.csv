@@ -1,0 +1,5 @@
+Metal,Stage_group,Results,Temp_known,Temp_percent,Sal_known,Sal_percent,Temp_sal_both_known,Temp_sal_both_percent,References,Species
+Cd,Adult,19,19,100,19,100,19,100,11,11
+Cd,Nauplii,5,5,100,5,100,5,100,4,5
+Cu,Adult,31,30,96.7741935483871,30,96.7741935483871,29,93.54838709677419,17,13
+Cu,Nauplii,14,7,50,13,92.85714285714286,7,50,7,5

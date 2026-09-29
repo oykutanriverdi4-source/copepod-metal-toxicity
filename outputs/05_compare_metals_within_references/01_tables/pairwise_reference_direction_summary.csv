@@ -1,0 +1,12 @@
+Comparison,Analysis_Role,References,First_metal_lower_references,Second_metal_lower_references,Equal_references
+Cd-Hg,SUPPORTING,3,0,3,0
+Cd-Ni,OTHER_VERIFIED,2,2,0,0
+Cd-Pb,OTHER_VERIFIED,1,1,0,0
+Cd-Zn,CORE,4,3,1,0
+Cu-Cd,CORE,10,7,3,0
+Cu-Hg,SUPPORTING,4,0,4,0
+Cu-Ni,OTHER_VERIFIED,2,2,0,0
+Cu-Zn,CORE,4,2,2,0
+Ni-Hg,OTHER_VERIFIED,1,0,1,0
+Zn-Hg,OTHER_VERIFIED,1,0,1,0
+Zn-Ni,OTHER_VERIFIED,1,1,0,0

@@ -1,0 +1,8 @@
+Reference_Number,Species,Metal,Lifestage,Source_Verification_Status,Primary_Verified_Use,Extended_Use,Verification_Note
+3744,Pseudodiaptomus coronatus,Zn,Adult,SECONDARY_SUPPORTED_SAME_SERIES_UNRESOLVED,NO,YES,"Original Lussier & Cardin (1985) Zn memorandum unavailable. EPA secondary documents support provenance/endpoints, but original same-series membership of 72 h and 96 h was not independently verified."
+8445,Acartia tonsa,Hg,F2 generation,SOURCE_VERIFIED_SAME_SERIES,YES,YES,"Sosnowski & Gentile (1978), Table 3 reports Hg LC50 values at 24, 48, 72 and 96 h within the same static 96-h F2 assay."
+8445,Acartia tonsa,Hg,F6 generation,SOURCE_VERIFIED_SAME_SERIES,YES,YES,"Sosnowski & Gentile (1978), Table 3 reports Hg LC50 values at 24, 48, 72 and 96 h within the same static 96-h F6 assay."
+14601,Acartia clausi,Cd,Adult,SECONDARY_SUPPORTED_SAME_SERIES_UNRESOLVED,NO,YES,"Original Lussier & Cardin (1985) Cd memorandum unavailable. EPA secondary documents support provenance/endpoints, but original same-series membership of 72 h and 96 h was not independently verified."
+119554,Tisbe battagliai,Cu,Gestation,SOURCE_VERIFIED_SAME_SERIES,YES,YES,Diz et al. (2009) follows gravid adult females within the same Cu assay and reports adult LC50 values at 48 and 72 h.
+156333,Nitocra spinipes,Cu,Adult,EXCLUDE_SEPARATE_EXPERIMENTAL_EXERCISES,NO,NO,Ward et al. (2011): the 72-h and 96-h estimates came from separate experimental exercises and are not one duration trajectory.
+166160,Tigriopus japonicus,Cu,Adult,SOURCE_VERIFIED_SAME_SERIES,YES,YES,Bao et al. (2013) conducted one 96-h semi-static acute Cu assay; Table 2 reports the 72-h and 96-h LC50 values from that assay.

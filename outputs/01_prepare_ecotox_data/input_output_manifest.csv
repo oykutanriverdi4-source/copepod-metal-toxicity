@@ -1,0 +1,4 @@
+Role,File
+Immutable raw ECOTOX export,data/raw/ecotox/ecotox_raw_export.xlsx
+Documented human/source-decision ledger,data/curated/ecotox/ecotox_working_master_harmonized.xlsx
+Processed ECOTOX dataset for downstream WoS integration,data/processed/ecotox_harmonized.csv

@@ -1,0 +1,51 @@
+Source_Origin,Stage_text,Stage_group,Stage_role,Metal,n
+ECOTOX,Adult,Adult,PRIMARY_STAGE_CONTRAST,Cu,34
+ECOTOX,Adult,Adult,PRIMARY_STAGE_CONTRAST,Zn,27
+ECOTOX,Nauplii,Nauplii,PRIMARY_STAGE_CONTRAST,Cu,21
+ECOTOX,Adult,Adult,PRIMARY_STAGE_CONTRAST,Cd,17
+ECOTOX,Multiple,NA,NOT_STAGE_ANALYSIS,Cu,11
+ECOTOX,Adult,Adult,PRIMARY_STAGE_CONTRAST,Ag,10
+WoS_supplemental,Copepodite V (CV),Copepodite,DEVELOPMENTAL_SECONDARY,Hg,8
+ECOTOX,Adult,Adult,PRIMARY_STAGE_CONTRAST,Ni,7
+ECOTOX,Copepodite,Copepodite,DEVELOPMENTAL_SECONDARY,Cu,7
+ECOTOX,Nauplii,Nauplii,PRIMARY_STAGE_CONTRAST,Cd,7
+WoS_supplemental,Adult female,Adult,PRIMARY_STAGE_CONTRAST,Cd,7
+WoS_supplemental,Adult,Adult,PRIMARY_STAGE_CONTRAST,Ni,6
+WoS_supplemental,Adult male,Adult,PRIMARY_STAGE_CONTRAST,Cd,5
+ECOTOX,F2 generation,NA,NOT_STAGE_ANALYSIS,Hg,4
+ECOTOX,F6 generation,NA,NOT_STAGE_ANALYSIS,Hg,4
+ECOTOX,Multiple,NA,NOT_STAGE_ANALYSIS,Cd,4
+WoS_supplemental,Adult,Adult,PRIMARY_STAGE_CONTRAST,Hg,4
+WoS_supplemental,Adult female,Adult,PRIMARY_STAGE_CONTRAST,Ni,4
+WoS_supplemental,Copepodite IV–V,Copepodite,DEVELOPMENTAL_SECONDARY,Zn,4
+ECOTOX,Adult,Adult,PRIMARY_STAGE_CONTRAST,Hg,3
+ECOTOX,Adult,Adult,PRIMARY_STAGE_CONTRAST,Pb,3
+ECOTOX,Multiple,NA,NOT_STAGE_ANALYSIS,Zn,3
+ECOTOX,Neonate,Neonate,AMBIGUOUS_OR_SPARSE,Cd,3
+WoS_supplemental,Adult male,Adult,PRIMARY_STAGE_CONTRAST,Cu,3
+WoS_supplemental,Nauplii 24–48 h,Nauplii,PRIMARY_STAGE_CONTRAST,Zn,3
+ECOTOX,Copepodid,Copepodite,DEVELOPMENTAL_SECONDARY,Cd,2
+ECOTOX,Gestation,NA,NOT_STAGE_ANALYSIS,Cu,2
+ECOTOX,Nauplii,Nauplii,PRIMARY_STAGE_CONTRAST,Hg,2
+ECOTOX,Nauplii,Nauplii,PRIMARY_STAGE_CONTRAST,Zn,2
+WoS_supplemental,Adult female,Adult,PRIMARY_STAGE_CONTRAST,Cu,2
+WoS_supplemental,Adult male,Adult,PRIMARY_STAGE_CONTRAST,Ni,2
+ECOTOX,Copepodid,Copepodite,DEVELOPMENTAL_SECONDARY,Cu,1
+ECOTOX,Copepodite,Copepodite,DEVELOPMENTAL_SECONDARY,Ag,1
+ECOTOX,Egg,Egg,DEVELOPMENTAL_SECONDARY,Cu,1
+ECOTOX,F2 generation,NA,NOT_STAGE_ANALYSIS,Cd,1
+ECOTOX,F2 generation,NA,NOT_STAGE_ANALYSIS,Cu,1
+ECOTOX,F6 generation,NA,NOT_STAGE_ANALYSIS,Cd,1
+ECOTOX,F6 generation,NA,NOT_STAGE_ANALYSIS,Cu,1
+ECOTOX,Juvenile,Juvenile,AMBIGUOUS_OR_SPARSE,Cu,1
+ECOTOX,Nauplii,Nauplii,PRIMARY_STAGE_CONTRAST,Ag,1
+ECOTOX,Neonate,Neonate,AMBIGUOUS_OR_SPARSE,Ni,1
+WoS_supplemental,Adult,Adult,PRIMARY_STAGE_CONTRAST,Cd,1
+WoS_supplemental,Adults; male + female,Adult,PRIMARY_STAGE_CONTRAST,Cu,1
+WoS_supplemental,Copepodids,Copepodite,DEVELOPMENTAL_SECONDARY,Cd,1
+WoS_supplemental,Nauplii,Nauplii,PRIMARY_STAGE_CONTRAST,Cd,1
+WoS_supplemental,Nauplii <12 h,Nauplii,PRIMARY_STAGE_CONTRAST,Cu,1
+WoS_supplemental,Nauplii ≤24 h,Nauplii,PRIMARY_STAGE_CONTRAST,Cu,1
+WoS_supplemental,Nauplii ≤24 h,Nauplii,PRIMARY_STAGE_CONTRAST,Zn,1
+WoS_supplemental,Newly molted non-ovulating females,NA,NOT_STAGE_ANALYSIS,Ag,1
+WoS_supplemental,Not specified for ZnCl2 arm,NA,NOT_STAGE_ANALYSIS,Zn,1

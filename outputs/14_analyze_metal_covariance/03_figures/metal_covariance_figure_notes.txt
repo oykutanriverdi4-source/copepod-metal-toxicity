@@ -1,0 +1,11 @@
+ANALYSIS / QA FIGURE NOTES; POLISHED THESIS FIGURES ARE GENERATED LATER
+Core pairs: Cu-Cd, Cu-Zn, Cd-Zn. Groups are defined without p-value selection.
+Fewer than three references is a display flag, not a scientific adequacy threshold.
+Zero/one-context pairs remain in metal_covariance_pair_support.csv; no scatter panel is drawn for them.
+Single-reference and two-context correlations are not highlighted as strong associations.
+Reference names/titles are in 01_audit/metal_covariance_reference_index.csv.
+The two covariance panels have different horizontal scales; compare numeric axes.
+A reference with one context provides no within-reference variation.
+Figures use the covariance components and correlations computed in this run.
+Colours denote references. No regression lines or confidence ellipses are added.
+Main-text versus supplementary placement remains undecided.

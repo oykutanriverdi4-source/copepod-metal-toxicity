@@ -1,0 +1,33 @@
+Metal,Duration_days,Results,Tests,References,Species,Duration_h,Common_Molar_Ready,Chemistry_Interpretation
+Cu,1,9,9,2,9,24,TRUE,Common target-metal molar LC50 available
+Cd,1,3,3,1,3,24,TRUE,Common target-metal molar LC50 available
+Zn,1,5,5,2,5,24,TRUE,Common target-metal molar LC50 available
+Ag,1,0,0,0,0,24,TRUE,Common target-metal molar LC50 available
+Cr,1,4,4,2,2,24,FALSE,Common molar LC50 not assigned: source concentration basis unresolved
+Hg,1,9,9,4,5,24,TRUE,Common target-metal molar LC50 available
+Ni,1,1,1,1,1,24,TRUE,Common target-metal molar LC50 available
+Pb,1,0,0,0,0,24,TRUE,Common target-metal molar LC50 available
+Cu,2,30,30,12,8,48,TRUE,Common target-metal molar LC50 available
+Cd,2,9,9,5,3,48,TRUE,Common target-metal molar LC50 available
+Zn,2,14,14,2,4,48,TRUE,Common target-metal molar LC50 available
+Ag,2,1,1,1,1,48,TRUE,Common target-metal molar LC50 available
+Cr,2,20,20,7,4,48,FALSE,Common molar LC50 not assigned: source concentration basis unresolved
+Hg,2,11,11,6,6,48,TRUE,Common target-metal molar LC50 available
+Ni,2,5,5,3,5,48,TRUE,Common target-metal molar LC50 available
+Pb,2,0,0,0,0,48,TRUE,Common target-metal molar LC50 available
+Cu,3,7,7,6,5,72,TRUE,Common target-metal molar LC50 available
+Cd,3,8,8,3,4,72,TRUE,Common target-metal molar LC50 available
+Zn,3,3,3,2,3,72,TRUE,Common target-metal molar LC50 available
+Ag,3,0,0,0,0,72,TRUE,Common target-metal molar LC50 available
+Cr,3,2,2,1,1,72,FALSE,Common molar LC50 not assigned: source concentration basis unresolved
+Hg,3,5,5,3,3,72,TRUE,Common target-metal molar LC50 available
+Ni,3,7,7,4,5,72,TRUE,Common target-metal molar LC50 available
+Pb,3,0,0,0,0,72,TRUE,Common target-metal molar LC50 available
+Cu,4,67,67,27,17,96,TRUE,Common target-metal molar LC50 available
+Cd,4,37,37,17,12,96,TRUE,Common target-metal molar LC50 available
+Zn,4,27,25,13,10,96,TRUE,Common target-metal molar LC50 available
+Ag,4,18,18,7,5,96,TRUE,Common target-metal molar LC50 available
+Cr,4,23,23,4,2,96,FALSE,Common molar LC50 not assigned: source concentration basis unresolved
+Hg,4,12,12,6,8,96,TRUE,Common target-metal molar LC50 available
+Ni,4,12,12,7,7,96,TRUE,Common target-metal molar LC50 available
+Pb,4,4,4,3,3,96,TRUE,Common target-metal molar LC50 available

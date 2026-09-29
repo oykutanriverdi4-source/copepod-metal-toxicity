@@ -1,0 +1,4 @@
+STATUS: ENVIROTOX-ECOTOX OVERLAP AUDIT = PASS
+Saltwater candidates checked: 54
+Exact ECOTOX Result overlaps: 38
+Unresolved candidates for source review: 16

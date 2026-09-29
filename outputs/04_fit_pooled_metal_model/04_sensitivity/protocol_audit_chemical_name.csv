@@ -1,0 +1,18 @@
+Source_Origin,Metal,Chemical_Name,Results,References,Species
+ECOTOX,Cu,Copper,26,5,5
+ECOTOX,Cu,Sulfuric acid copper(2+) salt (1:1),20,10,6
+ECOTOX,Cu,Copper chloride (CuCl2),10,8,6
+ECOTOX,Cu,Copper chloride (CuCl),4,2,4
+ECOTOX,Cu,"Nitric acid, Copper(2+) salt",2,1,1
+ECOTOX,Cu,"Acetic acid, Copper(2+) salt",1,1,1
+ECOTOX,Cu,Copper chloride,1,1,1
+ECOTOX,Cd,Cadmium chloride (CdCl2),23,11,10
+ECOTOX,Cd,Cadmium,7,3,3
+ECOTOX,Zn,"Sulfuric acid, Zinc salt (1:1)",11,6,5
+ECOTOX,Zn,Zinc chloride (ZnCl2),8,5,6
+ECOTOX,Zn,Zinc,4,1,4
+WoS_supplemental,Cu,CuCl2,3,2,2
+WoS_supplemental,Cd,Cd salt not reported,6,2,2
+WoS_supplemental,Cd,CdCl2,1,1,1
+WoS_supplemental,Zn,ZnSO4·H2O,3,1,1
+WoS_supplemental,Zn,ZnCl2,1,1,1

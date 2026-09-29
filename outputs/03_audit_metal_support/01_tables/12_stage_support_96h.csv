@@ -1,0 +1,29 @@
+Metal,Lifestage,Results,Tests,References,Species,ECOTOX_Results,WoS_Results
+Cu,Adult,31,31,17,13,28,3
+Cu,Copepodite,7,7,2,2,7,0
+Cu,Egg,1,1,1,1,1,0
+Cu,F2 generation,1,1,1,1,1,0
+Cu,F6 generation,1,1,1,1,1,0
+Cu,Juvenile,1,1,1,1,1,0
+Cu,Multiple,5,5,1,1,5,0
+Cu,Nauplii,14,14,7,5,14,0
+Cd,Adult,19,19,11,11,14,5
+Cd,Copepodid,1,1,1,1,1,0
+Cd,Copepodite,1,1,1,1,0,1
+Cd,F2 generation,1,1,1,1,1,0
+Cd,F6 generation,1,1,1,1,1,0
+Cd,Multiple,1,1,1,1,1,0
+Cd,Nauplii,5,5,4,5,4,1
+Cd,Neonate,3,3,1,1,3,0
+Zn,Adult,13,11,7,9,13,0
+Zn,Nauplii,5,5,3,3,2,3
+Ag,Adult,11,11,6,5,10,1
+Ag,Copepodite,1,1,1,1,1,0
+Ag,Nauplii,1,1,1,1,1,0
+Hg,Adult,2,2,2,2,1,1
+Hg,Copepodite,3,3,2,2,0,3
+Hg,F2 generation,1,1,1,1,1,0
+Hg,F6 generation,1,1,1,1,1,0
+Ni,Adult,9,9,5,6,4,5
+Ni,Neonate,1,1,1,1,1,0
+Pb,Adult,3,3,2,3,3,0

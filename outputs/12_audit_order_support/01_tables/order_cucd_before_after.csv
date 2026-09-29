@@ -1,0 +1,9 @@
+Evidence_Set,Metal,Order,Results,References,Species
+Combined ECOTOX + WoS,Cd,Calanoida,24,9,5
+ECOTOX only,Cd,Calanoida,18,7,4
+Combined ECOTOX + WoS,Cd,Harpacticoida,11,7,5
+ECOTOX only,Cd,Harpacticoida,10,6,5
+Combined ECOTOX + WoS,Cu,Calanoida,23,9,6
+ECOTOX only,Cu,Calanoida,20,7,5
+Combined ECOTOX + WoS,Cu,Harpacticoida,43,17,10
+ECOTOX only,Cu,Harpacticoida,43,17,10

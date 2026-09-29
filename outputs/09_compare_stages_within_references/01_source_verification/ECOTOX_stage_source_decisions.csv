@@ -1,0 +1,9 @@
+Reference_Number,Metal,Final_stage_use,Stage_verification_status,Stage_verification_note
+2977,Cu,YES,SOURCE_VERIFIED_ENV,O'Brien et al.; Temperature 16 +/- 1 C and salinity 35
+19281,Cd,YES,SOURCE_VERIFIED_ENV,Forget et al. (1998); Temperature 20 C and salinity 35
+14137,Cu,YES,SOURCE_VERIFIED_RAW_RANGE,Adult-Nauplii contrast; RAW/source environmental range recovered
+14137,Cd,YES,SOURCE_VERIFIED_RAW_RANGE,Adult-Nauplii contrast; RAW/source environmental range recovered
+11097,Cu,YES,SOURCE_STAGE_SPLIT,Five source-defined developmental contexts
+11097,Cd,YES,SOURCE_STAGE_SPLIT,Five source-defined developmental contexts
+14474,Cu,NO,LIKELY_REREPORT,Do not count as independent developmental-stage evidence
+6045,Hg,NO,SOURCE_VALUE_HOLD,Hg source LC50 values remain unresolved

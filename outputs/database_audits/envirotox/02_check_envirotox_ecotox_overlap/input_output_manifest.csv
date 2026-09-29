@@ -1,0 +1,7 @@
+Role,Path
+Input: EnviroTox preliminary-screening workbook,outputs/database_audits/envirotox/01_screen_envirotox_records/envirotox_preliminary_screening.xlsx
+Input: ECOTOX curated working master,data/curated/ecotox/ecotox_working_master_harmonized.xlsx
+Input: ECOTOX raw workbook,data/raw/ecotox/ecotox_raw_export.xlsx
+Local output: detailed EnviroTox-ECOTOX overlap workbook,outputs/database_audits/envirotox/02_check_envirotox_ecotox_overlap/envirotox_ecotox_overlap.xlsx
+Output: overlap count summary,outputs/database_audits/envirotox/02_check_envirotox_ecotox_overlap/overlap_count_summary.csv
+Output: matching-method documentation,outputs/database_audits/envirotox/02_check_envirotox_ecotox_overlap/matching_method.csv

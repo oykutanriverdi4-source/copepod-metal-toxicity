@@ -1,0 +1,3 @@
+Reference_Number,Metal,Temperature_source_key,Salinity_source_key,Temperature_source_display,Salinity_source_display
+2977,Cu,SOURCE|REF2977|TEMP=16+-1C,SOURCE|REF2977|SAL=35,16,35
+19281,Cd,SOURCE|REF19281|TEMP=20C,SOURCE|REF19281|SAL=35,20,35

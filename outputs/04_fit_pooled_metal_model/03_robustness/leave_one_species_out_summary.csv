@@ -1,0 +1,4 @@
+contrast,n_refits,min_ratio,max_ratio,min_lower,max_upper,ratios_below_1,ratios_above_1,ratios_equal_1,all_point_estimates_below_1,all_point_estimates_above_1,singular_models,convergence_failures
+Cd - Zn,22,0.18137233869376934,0.3764160286849921,0.0744020421896424,0.8332971472697365,22,0,0,TRUE,FALSE,0,0
+Cu - Cd,22,0.6232094275311366,0.9542384903032148,0.3228535035540855,1.9392095654380221,22,0,0,TRUE,FALSE,0,0
+Cu - Zn,22,0.1561862865359948,0.3018315187990025,0.05303201203692848,0.6696480393791364,22,0,0,TRUE,FALSE,0,0

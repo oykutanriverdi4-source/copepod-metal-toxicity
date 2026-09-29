@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived software release."
+title: "Comparative Acute Metal Toxicity in Marine and Estuarine Copepods: Reproducibility Code and Data"
+type: software
+authors:
+  - family-names: "Tanrıverdi"
+    given-names: "Öykü"
+version: "1.0.0"
+repository-code: "https://github.com/oykutanriverdi4-source/copepod-metal-toxicity"
+license: "MIT"
+keywords:
+  - "copepods"
+  - "acute toxicity"
+  - "LC50"
+  - "copper"
+  - "cadmium"
+  - "zinc"
+  - "marine ecotoxicology"
+  - "mixed-effects models"
+  - "reproducible research"
+abstract: >-
+  Reproducibility code, curated analytical data, audit workflows, robustness
+  analyses, and thesis-facing figures for a quantitative assessment of acute
+  metal toxicity patterns in marine and estuarine copepods. The workflow
+  integrates ECOTOX records with source-verified supplementary literature
+  records and includes pooled, within-Reference, biological, environmental,
+  covariance, and uncertainty analyses.

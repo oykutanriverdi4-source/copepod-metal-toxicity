@@ -1,0 +1,2 @@
+n_successful_refits,Cu_ratio_min,Cu_ratio_median,Cu_ratio_max,Cd_ratio_min,Cd_ratio_median,Cd_ratio_max,RoR_min,RoR_median,RoR_max,Cu_Harp_higher_n,Cd_Harp_higher_n,RoR_below_1_n,singular_refits,convergence_warning_refits
+18,5.497420241034217,8.21162560807421,9.817477820031318,2.3349689713972257,5.260969068934945,7.20198464859722,0.42473903558770937,0.6350834970894536,0.8574866164002878,18,18,18,0,0

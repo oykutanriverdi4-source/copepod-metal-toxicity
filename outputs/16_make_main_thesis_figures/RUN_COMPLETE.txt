@@ -1,0 +1,3 @@
+STATUS: MAIN THESIS FIGURE SUITE = PASS
+Reader-facing figures: 19
+Scientific models and source-verification decisions were not refitted or changed by this script.

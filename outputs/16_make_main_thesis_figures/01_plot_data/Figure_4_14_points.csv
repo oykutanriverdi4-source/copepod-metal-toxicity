@@ -1,0 +1,17 @@
+Temperature_Comparison_ID,Reference_ID,Source_Origin,Reference_label,Species,Metal,Stage_context,Duration_h,Temperature_C,Salinity,LC50_umol_L,Include_clean_direct,Quality_note,Source_label,Panel
+TEMP_01,E_9029,ECOTOX,E_9029,Acartia tonsa,Cd,Adult,96,13,20,1.3432490615047947,YES,Clean 13-vs-21 C pair at salinity 20; the 18 C / salinity 15 result is excluded from this direct temperature contrast.,ECOTOX,"E_9029 | Cd
+Acartia tonsa"
+TEMP_01,E_9029,ECOTOX,E_9029,Acartia tonsa,Cd,Adult,96,21,20,0.2579749853221129,YES,Clean 13-vs-21 C pair at salinity 20; the 18 C / salinity 15 result is excluded from this direct temperature contrast.,ECOTOX,"E_9029 | Cd
+Acartia tonsa"
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,4,NA,314.7326346268845,YES,"The publication describes the 4 C LC50 as around 20,000 ug Cu/L; surviving copepods were dormant.",Supplementary literature,"Li et al. (2014) | Cu
+Tigriopus japonicus"
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,15,NA,146.35067510150128,YES,NA,Supplementary literature,"Li et al. (2014) | Cu
+Tigriopus japonicus"
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,25,NA,39.34157932836056,YES,NA,Supplementary literature,"Li et al. (2014) | Cu
+Tigriopus japonicus"
+TEMP_02,ENV_LI2014,SOURCE_REVIEWED_PUBLICATION,Li et al. (2014),Tigriopus japonicus,Cu,Adult,96,32,NA,3.8240015107166463,YES,NA,Supplementary literature,"Li et al. (2014) | Cu
+Tigriopus japonicus"
+TEMP_03,ENV_CHEN2022,SOURCE_REVIEWED_PUBLICATION,Chen & Dong (2022),Tigriopus japonicus,Hg,Adult,24,22,29.5,5.084999252205992,YES,Results-section LC50 used. Another passage states 1.098 mg/L; the discrepancy is retained in this audit note.,Supplementary literature,"Chen & Dong (2022) | Hg
+Tigriopus japonicus"
+TEMP_03,ENV_CHEN2022,SOURCE_REVIEWED_PUBLICATION,Chen & Dong (2022),Tigriopus japonicus,Hg,Adult,24,25,29.5,2.597337853332669,YES,Two copepods died across the three 25 C control replicates; no control mortality was reported at 22 C.,Supplementary literature,"Chen & Dong (2022) | Hg
+Tigriopus japonicus"

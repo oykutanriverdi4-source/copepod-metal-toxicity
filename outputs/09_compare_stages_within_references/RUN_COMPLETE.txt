@@ -1,0 +1,4 @@
+STATUS: 09 COMPARE STAGES WITHIN REFERENCES = PASS
+Stage series: 10
+References: 7
+Species: 6

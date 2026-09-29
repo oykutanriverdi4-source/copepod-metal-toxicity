@@ -1,0 +1,25 @@
+Pair,n_contexts,n_references,Panel,Component,Covariance
+Cu-Cd,21,10,A  Total and between publications,Total,1.57702562021996
+Cu-Zn,6,4,A  Total and between publications,Total,0.421196933935282
+Cu-Hg,6,4,A  Total and between publications,Total,1.42716667954606
+Cu-Ni,4,2,A  Total and between publications,Total,3.91520636605282
+Cd-Zn,7,4,A  Total and between publications,Total,0.922135776809729
+Cd-Hg,5,3,A  Total and between publications,Total,1.37452775420309
+Cd-Ni,2,2,A  Total and between publications,Total,3.47363785027809
+Cd-Pb,2,1,A  Total and between publications,Total,0.0903338732127464
+Cu-Cd,21,10,A  Total and between publications,Between publications,1.53917122734479
+Cu-Zn,6,4,A  Total and between publications,Between publications,0.418853323040333
+Cu-Hg,6,4,A  Total and between publications,Between publications,1.4142243666265
+Cu-Ni,4,2,A  Total and between publications,Between publications,3.91244207864323
+Cd-Zn,7,4,A  Total and between publications,Between publications,0.901293300742713
+Cd-Hg,5,3,A  Total and between publications,Between publications,1.3514187372622
+Cd-Ni,2,2,A  Total and between publications,Between publications,3.47363785027809
+Cd-Pb,2,1,A  Total and between publications,Between publications,0
+Cu-Cd,21,10,B  Within publications,Within publications,0.0378543928751755
+Cu-Zn,6,4,B  Within publications,Within publications,0.00234361089494877
+Cu-Hg,6,4,B  Within publications,Within publications,0.0129423129195599
+Cu-Ni,4,2,B  Within publications,Within publications,0.00276428740958791
+Cd-Zn,7,4,B  Within publications,Within publications,0.0208424760670159
+Cd-Hg,5,3,B  Within publications,Within publications,0.023109016940895
+Cd-Ni,2,2,B  Within publications,Within publications,0
+Cd-Pb,2,1,B  Within publications,Within publications,0.0903338732127464

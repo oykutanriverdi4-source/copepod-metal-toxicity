@@ -1,0 +1,8 @@
+Metal,Results_96,Tests_96,References_96,Species_96,ECOTOX_Results_96,WoS_Results_96,WoS_Share_96_pct,Top_reference_share_pct,Top_2_reference_share_pct,Top_species_share_pct,Top_2_species_share_pct,Connected_metals_by_reference,Total_shared_references_across_pairs,Connected_metals_by_refspecies,Total_shared_refspecies_across_pairs,Previously_selected
+Cu,67,67,27,17,64,3,4.5,19.4,34.3,22.4,41.8,5,14,5,14,TRUE
+Cd,37,37,17,12,30,7,18.9,13.5,24.3,24.3,48.6,5,13,5,14,TRUE
+Zn,27,25,13,10,23,4,14.8,14.8,29.6,22.2,33.3,4,10,4,14,TRUE
+Ni,12,12,7,7,7,5,41.7,25,41.7,41.7,58.3,4,7,4,9,FALSE
+Ag,18,18,7,5,17,1,5.6,27.8,50,50,77.8,2,3,2,3,FALSE
+Hg,12,12,6,8,8,4,33.3,33.3,58.3,33.3,50,4,8,4,12,FALSE
+Pb,4,4,3,3,4,0,0,50,75,50,75,2,3,2,4,FALSE

@@ -1,0 +1,9 @@
+Metal,Results_96,Tests_96,References_96,Species_96,Common_Molar_Ready,Chemistry_Interpretation
+Cu,67,67,27,17,TRUE,Common target-metal molar LC50 available
+Cd,37,37,17,12,TRUE,Common target-metal molar LC50 available
+Zn,27,25,13,10,TRUE,Common target-metal molar LC50 available
+Ag,18,18,7,5,TRUE,Common target-metal molar LC50 available
+Cr,23,23,4,2,FALSE,Common molar LC50 not assigned: source concentration basis unresolved
+Hg,12,12,6,8,TRUE,Common target-metal molar LC50 available
+Ni,12,12,7,7,TRUE,Common target-metal molar LC50 available
+Pb,4,4,3,3,TRUE,Common target-metal molar LC50 available

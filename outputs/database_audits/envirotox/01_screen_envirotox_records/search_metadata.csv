@@ -1,0 +1,10 @@
+Field,Value
+Database,EnviroTox
+Version,2.0.0
+Search date,2026-09-05
+Heavy Metals,"contains ""1"""
+Trophic Level,"contains ""INVERT"""
+Test type,A
+Test statistic,LC50
+Copepod orders,Calanoida; Harpacticoida; Cyclopoida
+Marine/estuarine screening proxy,Medium = Saltwater

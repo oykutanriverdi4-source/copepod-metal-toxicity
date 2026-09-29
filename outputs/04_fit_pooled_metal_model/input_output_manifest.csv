@@ -1,0 +1,6 @@
+Type,Path
+Input,outputs/03_audit_metal_support/03_objects/metal_support_audit_objects.rds
+Primary output directory,outputs/04_fit_pooled_metal_model
+Reusable analysis object,outputs/04_fit_pooled_metal_model/06_objects/combined_pooled_analysis_objects.rds
+Primary ratio table,outputs/04_fit_pooled_metal_model/01_model/metal_pairwise_lc50_ratios.csv
+Primary model estimates,outputs/04_fit_pooled_metal_model/01_model/metal_model_estimates_original_scale.csv

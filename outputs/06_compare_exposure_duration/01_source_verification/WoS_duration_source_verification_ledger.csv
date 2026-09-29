@@ -1,0 +1,16 @@
+Reference_ID,Test_ID,Species,Metal,Stage_Label,Endpoint_Extrapolation_Flag,Verification_Note
+W_002,W_002_T01,Pseudodiaptomus annandalei,Cd,Adult male,NO,Kadiene et al. (2017): male 72-h and 96-h Cd LC50s from the same acute assay.
+W_002,W_002_T02,Pseudodiaptomus annandalei,Cd,Adult female,YES,Kadiene et al. (2017): female 72-h and 96-h Cd LC50s from the same assay; 72-h LC50 exceeds the highest tested concentration.
+W_002,W_002_T03,Eurytemora affinis,Cd,Adult female,NO,Kadiene et al. (2017): female 48/72/96-h Cd LC50s from the same acute assay.
+W_002,W_002_T04,Eurytemora affinis,Cd,Adult male,NO,Kadiene et al. (2017): male 72-h and 96-h Cd LC50s from the same acute assay.
+W_003,W_003_T01,Calanus finmarchicus,Hg,Copepodite V (CV),YES,Tollefsen et al. (2017): 24/48/72/96-h Hg LC50s from the same static assay; 24-h LC50 exceeds the tested range.
+W_004,W_004_T01,Pseudodiaptomus marinus,Ni,Adult,YES,Tlili et al. (2016): 24/48/72/96-h Ni LC50s from the same assay; 24-h LC50 slightly exceeds the highest tested concentration.
+W_008,W_008_T01,Calanus glacialis,Zn,Copepodite IV–V,NO,Cherkashin (2020): 24-h and 48-h Zn LC50s from the same acute exposure series.
+W_008,W_008_T02,Neocalanus plumchrus,Zn,Copepodite IV–V,NO,Cherkashin (2020): 24-h and 48-h Zn LC50s from the same acute exposure series.
+W_010,W_010_T01,Pseudodiaptomus marinus,Hg,Adult,YES,Tlili et al. (2019): 24/48/72/96-h Hg LC50s from the same assay; 24-h and 48-h estimates exceed the highest tested treatment.
+W_013,W_013_T01,Eurytemora affinis,Cd,Adult female,NO,Zidour et al. (2019): retained female Cd 48-h and 72-h endpoints belong to the same assay; duplicate 96-h value was removed before merge.
+W_013,W_013_T02,Eurytemora affinis,Cu,Adult female,NO,Zidour et al. (2019): female 72-h and 96-h Cu LC50s from the same assay.
+W_013,W_013_T04,Eurytemora affinis,Cu,Adult male,NO,Zidour et al. (2019): male 48/72/96-h Cu LC50s from the same assay.
+W_013,W_013_T06,Eurytemora affinis,Ni,Adult male,NO,Zidour et al. (2019): male 72-h and 96-h Ni LC50s from the same assay.
+W_015,W_015_T01,Calanus finmarchicus,Hg,Copepodite V (CV),NO,Øverjordet et al. (2014): 48-h and 96-h Hg LC50s from the same acute assay.
+W_015,W_015_T02,Calanus glacialis,Hg,Copepodite V (CV),NO,Øverjordet et al. (2014): 48-h and 96-h Hg LC50s from the same acute assay.

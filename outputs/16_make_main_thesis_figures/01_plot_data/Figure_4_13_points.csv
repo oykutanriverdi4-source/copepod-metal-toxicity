@@ -1,0 +1,39 @@
+Comparison_ID,Reference_ID,Reference_Number,Species,Metal,Salinity,LC50_umol_L,Data_set,Panel
+SAL_MAIN_01,E_166133,166133,Acartia tonsa,Cu,5,0.657791,Previously Retained,"Publication 166133 | Cu
+Acartia tonsa"
+SAL_MAIN_01,E_166133,166133,Acartia tonsa,Cu,15,1.060649,Previously Retained,"Publication 166133 | Cu
+Acartia tonsa"
+SAL_MAIN_01,E_166133,166133,Acartia tonsa,Cu,30,1.710572,Previously Retained,"Publication 166133 | Cu
+Acartia tonsa"
+SAL_MAIN_02,E_107036,107036,Eurytemora affinis,Cu,5,1.63661,Previously Retained,"Publication 107036 | Cu
+Eurytemora affinis"
+SAL_MAIN_02,E_107036,107036,Eurytemora affinis,Cu,15,1.063796,Previously Retained,"Publication 107036 | Cu
+Eurytemora affinis"
+SAL_MAIN_02,E_107036,107036,Eurytemora affinis,Cu,25,0.914298,Previously Retained,"Publication 107036 | Cu
+Eurytemora affinis"
+SAL_MAIN_03,E_17219,17219,Eurytemora affinis,Cd,5,0.459018,Previously Retained,"Publication 17219 | Cd
+Eurytemora affinis"
+SAL_MAIN_03,E_17219,17219,Eurytemora affinis,Cd,15,1.896561,Previously Retained,"Publication 17219 | Cd
+Eurytemora affinis"
+SAL_MAIN_03,E_17219,17219,Eurytemora affinis,Cd,25,0.737453,Previously Retained,"Publication 17219 | Cd
+Eurytemora affinis"
+SAL_MAIN_04,E_6825,6825,Acartia lilljeborgi,Zn,25,10.706638,Previously Retained,"Publication 6825 | Zn
+Acartia lilljeborgi"
+SAL_MAIN_04,E_6825,6825,Acartia lilljeborgi,Zn,28,8.412359,Previously Retained,"Publication 6825 | Zn
+Acartia lilljeborgi"
+SAL_MAIN_04,E_6825,6825,Acartia lilljeborgi,Zn,32,13.612726,Previously Retained,"Publication 6825 | Zn
+Acartia lilljeborgi"
+SAL_MAIN_05,E_6825,6825,Temora stylifera,Zn,25,0.458856,Previously Retained,"Publication 6825 | Zn
+Temora stylifera"
+SAL_MAIN_05,E_6825,6825,Temora stylifera,Zn,28,0.35179,Previously Retained,"Publication 6825 | Zn
+Temora stylifera"
+SAL_MAIN_05,E_6825,6825,Temora stylifera,Zn,32,0.474151,Previously Retained,"Publication 6825 | Zn
+Temora stylifera"
+SAL_EXT_01,E_2332,2332,Nitocra spinipes,Cd,7,5.871154838365328,Additional Screened,"Publication 2332 | Cd
+Nitocra spinipes"
+SAL_EXT_01,E_2332,2332,Nitocra spinipes,Cd,15,6.938637536249933,Additional Screened,"Publication 2332 | Cd
+Nitocra spinipes"
+SAL_EXT_02,E_2332,2332,Nitocra spinipes,Zn,15,36.708473539308656,Additional Screened,"Publication 2332 | Zn
+Nitocra spinipes"
+SAL_EXT_02,E_2332,2332,Nitocra spinipes,Zn,25,42.82655246252677,Additional Screened,"Publication 2332 | Zn
+Nitocra spinipes"

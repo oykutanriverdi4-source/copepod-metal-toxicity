@@ -1,0 +1,9 @@
+Evidence_Set,Metal,Stage_group,Results,References,Species
+Combined ECOTOX + WoS,Cd,Adult,19,11,11
+ECOTOX only,Cd,Adult,14,9,10
+Combined ECOTOX + WoS,Cd,Nauplii,5,4,5
+ECOTOX only,Cd,Nauplii,4,3,4
+Combined ECOTOX + WoS,Cu,Adult,31,17,13
+ECOTOX only,Cu,Adult,28,15,12
+Combined ECOTOX + WoS,Cu,Nauplii,14,7,5
+ECOTOX only,Cu,Nauplii,14,7,5

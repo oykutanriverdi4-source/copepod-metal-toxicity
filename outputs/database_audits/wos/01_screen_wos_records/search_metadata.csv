@@ -1,0 +1,6 @@
+Field,Value
+Database,Web of Science Core Collection
+Search date,2026-09-05
+Search field,Topic
+Query,"copepod* AND (""LC50"" OR ""LC 50"" OR ""median lethal concentration"") AND (copper OR cadmium OR zinc OR nickel OR lead OR silver OR chromium OR mercury)"
+Keywords Plus screening treatment,Included in the Topic search but not used in the subsequent title/abstract/author-keyword screening

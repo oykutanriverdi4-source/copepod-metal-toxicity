@@ -1,0 +1,3 @@
+Temperature_Comparison_ID,Reference_ID,Source_Origin,Reference_label,Species,Metal,Stage_context,Duration_h,Temperature_C,Salinity,LC50_reported_mg_L,Include_clean_direct,Quality_note,LC50_umol_L
+TEMP_03,ENV_CHEN2022,SOURCE_REVIEWED_PUBLICATION,Chen & Dong (2022),Tigriopus japonicus,Hg,Adult,24,22,29.5,1.02,YES,Results-section LC50 used. Another passage states 1.098 mg/L; the discrepancy is retained in this audit note.,5.084999252205992
+TEMP_03,ENV_CHEN2022,SOURCE_REVIEWED_PUBLICATION,Chen & Dong (2022),Tigriopus japonicus,Hg,Adult,24,25,29.5,0.521,YES,Two copepods died across the three 25 C control replicates; no control mortality was reported at 22 C.,2.597337853332669

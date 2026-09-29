@@ -1,0 +1,2 @@
+Reference_ID,Source_Context_ID,Source_Origin,Species,Duration_days,Lifestage,Biological_Context,Comparison,Metal_A,Metal_B,LC50_A,LC50_B,LC50_ratio,ln_ratio,Analysis_Role
+E_2183,2183_NITROCA_ADULT_96H,ECOTOX,Nitocra spinipes,4,Adult,Adult,Ni-Hg,Ni,Hg,102.22614467725502,1.1466060461035334,89.15542092652149,4.4903811492638726,OTHER_VERIFIED

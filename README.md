@@ -160,4 +160,15 @@ For Web of Science, users reproducing the audit should obtain their own export t
 
 ## Citation and archive
 
-A software citation and Zenodo DOI will be added at release. Until then, this repository should be treated as the pre-release reproducibility archive accompanying the thesis.
+The archived thesis reproducibility release is available on Zenodo:
+
+**Tanrıverdi, Ö. (2026). _Comparative Acute Metal Toxicity in Marine and Estuarine Copepods: Reproducibility Code and Data_ (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23031360**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23031360.svg)](https://doi.org/10.5281/zenodo.23031360)
+
+- **Archived release:** `v1.0.0`
+- **Version-specific DOI:** `10.5281/zenodo.23031360`
+- **Zenodo record:** https://zenodo.org/records/23031360
+- **GitHub repository:** https://github.com/oykutanriverdi4-source/copepod-metal-toxicity
+
+The Zenodo record is the frozen archival copy of release `v1.0.0`. The GitHub `main` branch may contain later documentation or metadata updates.

@@ -165,15 +165,15 @@ For Web of Science, users reproducing the audit should obtain their own export t
 
 ## Citation and archive
 
-The currently archived Zenodo release is:
+The current archived release is:
 
-**Tanrıverdi, Ö. (2026). _Comparative Acute Metal Toxicity in Marine and Estuarine Copepods: Reproducibility Code and Data_ (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23031360**
+**Tanrıverdi, Ö. (2026). _Comparative Acute Metal Toxicity in Marine and Estuarine Copepods: Reproducibility Code and Data_ (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23234414**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23031360.svg)](https://doi.org/10.5281/zenodo.23031360)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23234414.svg)](https://doi.org/10.5281/zenodo.23234414)
 
-- **Archived release:** `v1.0.0`
-- **Version-specific DOI:** `10.5281/zenodo.23031360`
-- **Zenodo record:** https://zenodo.org/records/23031360
+- **Current archived release:** `v1.1.0`
+- **Version-specific DOI:** `10.5281/zenodo.23234414`
+- **Zenodo record:** https://zenodo.org/records/23234414
 - **GitHub repository:** https://github.com/oykutanriverdi4-source/copepod-metal-toxicity
 
-The Zenodo record above is the frozen archival copy of release `v1.0.0`. The GitHub `main` branch may contain later corrections that have not yet been archived as a new Zenodo release.
+Version `v1.1.0` incorporates the source-verified O'Brien C6 adult-stage correction and the associated reporting updates. The previous archived release, `v1.0.0`, remains preserved by Zenodo as part of the version history.

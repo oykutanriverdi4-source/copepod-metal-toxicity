@@ -3,7 +3,7 @@ Ag,4,10,1,5,1,1,E_18833,4,1,1,Tigriopus brevicornis
 Cd,2,3,3,3,2,0,,2,2,1,Tisbe holothuriae
 Cd,4,19,5,11,4,1,E_14137,11,5,4,Acartia tonsa | Eurytemora affinis | Pseudodiaptomus annandalei | Tisbe battagliai
 Cu,2,4,9,3,7,1,E_14474,2,5,2,Eurytemora affinis | Tisbe holothuriae
-Cu,4,31,14,17,7,2,E_14137 | E_18833,13,5,3,Eurytemora affinis | Tigriopus brevicornis | Tisbe battagliai
+Cu,4,32,14,18,7,3,E_14137 | E_18833 | E_2977,14,5,4,Eurytemora affinis | Tigriopus brevicornis | Tigriopus californicus | Tisbe battagliai
 Hg,1,2,1,2,1,1,E_6045,2,1,1,Acartia tonsa
 Hg,2,2,1,2,1,0,,2,1,0,
 Zn,3,2,1,1,1,0,,2,1,0,

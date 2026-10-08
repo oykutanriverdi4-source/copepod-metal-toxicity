@@ -1,4 +1,4 @@
-Question,Combined_primary,ECOTOX_only,LORO_direction_consistency,LOSO_direction_consistency
-Cu: are Nauplii point estimates lower than Adults?,TRUE,TRUE,TRUE,TRUE
-Cd: are Nauplii point estimates lower than Adults?,TRUE,TRUE,TRUE,TRUE
-Is the Cd-vs-Cu stage-contrast magnitude clearly different?,FALSE,FALSE,NA,NA
+Question,Criterion,Interpretation_note,Combined_primary,ECOTOX_only,LORO_direction_consistency,LOSO_direction_consistency
+Cu: are Nauplii point estimates lower than Adults?,POINT_ESTIMATE_DIRECTION_ONLY,"TRUE describes point direction, not statistical support.",TRUE,TRUE,TRUE,TRUE
+Cd: are Nauplii point estimates lower than Adults?,POINT_ESTIMATE_DIRECTION_ONLY,"TRUE describes point direction, not statistical support.",TRUE,TRUE,TRUE,TRUE
+Is the unadjusted Cd-vs-Cu interaction p-value below 0.05?,UNADJUSTED_INTERACTION_P_LT_0_05,Unadjusted planned interaction test; Holm sensitivity is reported separately.,FALSE,FALSE,NA,NA

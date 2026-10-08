@@ -1,4 +1,4 @@
-Question,Combined_primary,ECOTOX_only,LORO_direction_consistency,LOSO_direction_consistency
-Cu: is Harpacticoida LC50 higher than Calanoida?,TRUE,TRUE,TRUE,TRUE
-Cd: is Harpacticoida LC50 higher than Calanoida?,TRUE,TRUE,TRUE,TRUE
-Is the Cd order contrast smaller than the Cu order contrast?,TRUE,TRUE,TRUE,TRUE
+Question,Criterion,Interpretation_note,Combined_primary,ECOTOX_only,LORO_direction_consistency,LOSO_direction_consistency
+Cu: is the Harpacticoida/Calanoida point estimate above 1?,POINT_ESTIMATE_DIRECTION_ONLY,TRUE describes point direction only; it does not establish an effect or interaction.,TRUE,TRUE,TRUE,TRUE
+Cd: is the Harpacticoida/Calanoida point estimate above 1?,POINT_ESTIMATE_DIRECTION_ONLY,TRUE describes point direction only; it does not establish an effect or interaction.,TRUE,TRUE,TRUE,TRUE
+Is the Cd/Cu ratio-of-ratios point estimate below 1?,POINT_ESTIMATE_DIRECTION_ONLY,TRUE describes point direction only; it does not establish an effect or interaction.,TRUE,TRUE,TRUE,TRUE

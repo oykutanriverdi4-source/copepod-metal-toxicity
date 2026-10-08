@@ -65,6 +65,9 @@ library(lmerTest)
 library(emmeans)
 library(pbkrtest)
 
+# Reporting-only helper: does not fit/select models or suppress messages.
+source(file.path("scripts", "helpers", "reporting_checks.R"), local = TRUE)
+
 options(width = 220)
 options(na.action = "na.fail")
 
@@ -156,11 +159,11 @@ stage_support <- stage_model_data %>%
 
 # Frozen final four-cell support inherited from Script 10.
 stopifnot(
-  nrow(stage_model_data) == 69,
+  nrow(stage_model_data) == 70,
   
   stage_support %>%
     filter(Metal == "Cu", Stage == "Adult") %>%
-    pull(Results) == 31,
+    pull(Results) == 32,
   
   stage_support %>%
     filter(Metal == "Cu", Stage == "Nauplii") %>%
@@ -291,7 +294,11 @@ extract_stage_metrics <- function(model) {
     
     singular = isSingular(model, tol = 1e-4),
     convergence_message = conv_msg
-  )
+  ) %>%
+    bind_cols(
+      report_fit_diagnostics(model) %>%
+        dplyr::select(-singular, -lme4_messages)
+    )
 }
 
 
@@ -364,7 +371,7 @@ if (!primary_convergence_clean) {
 }
 
 stopifnot(
-  nobs(m_stage_int) == 69,
+  nobs(m_stage_int) == 70,
   primary_convergence_clean
 )
 
@@ -450,6 +457,12 @@ stage_emmeans_table <- summary(
   as.data.frame()
 
 baseline_metrics <- extract_stage_metrics(m_stage_int)
+
+# Additional numerical-status report; existing primary QA gates are unchanged.
+write_csv(
+  report_fit_diagnostics(m_stage_int),
+  file.path(model_dir, "stage_primary_numerical_diagnostics.csv")
+)
 
 write_csv(
   stage_contrasts_summary,
@@ -542,14 +555,20 @@ stage_ecotox_only <- stage_model_data %>%
   filter(Source_Origin == "ECOTOX") %>%
   droplevels()
 
-stopifnot(nrow(stage_ecotox_only) == 60)
+stopifnot(nrow(stage_ecotox_only) == 61)
 
 m_stage_ecotox <- fit_stage_model(stage_ecotox_only)
 
 ecotox_metrics <- extract_stage_metrics(m_stage_ecotox)
 
-# Frozen ECOTOX-only benchmark values retained as a regression test.
-# They do not define the combined analysis result.
+# Preserve the OLD 60-row numerical regression test on the OLD membership.
+# It is not a target for the corrected 61-row ECOTOX-only model above.
+# C6 was absent from the original Stage fit because of its former Copepodite label.
+stage_ecotox_legacy <- stage_ecotox_only %>%
+  filter(Result_ID != "E_R115201") %>% droplevels()
+stopifnot(nrow(stage_ecotox_legacy) == 60)
+legacy_ecotox_metrics <- extract_stage_metrics(fit_stage_model(stage_ecotox_legacy))
+# Frozen historical values; they do not define the corrected combined result.
 ecotox_regression_check <- tibble(
   Estimand = c(
     "Cu Nauplii / Adult",
@@ -562,9 +581,9 @@ ecotox_regression_check <- tibble(
     1.8608
   ),
   ECOTOX_reproduction = c(
-    ecotox_metrics$Cu_ratio,
-    ecotox_metrics$Cd_ratio,
-    ecotox_metrics$ratio_of_ratios
+    legacy_ecotox_metrics$Cu_ratio,
+    legacy_ecotox_metrics$Cd_ratio,
+    legacy_ecotox_metrics$ratio_of_ratios
   )
 ) %>%
   mutate(
@@ -927,8 +946,20 @@ loro_summary <- loro_results %>%
     singular_refits =
       sum(singular, na.rm = TRUE),
     
-    convergence_warning_refits =
-      sum(!is.na(convergence_message))
+    # Same raw message may report singularity; do not count it again
+    # as a separate optimizer/convergence failure.
+    any_lme4_message_refits =
+      sum(!is.na(convergence_message)),
+    singularity_message_refits =
+      sum(!is.na(singularity_message)),
+    other_numerical_alert_refits =
+      sum(other_numerical_alert, na.rm = TRUE),
+    optimizer_nonzero_code_refits =
+      sum(optimizer_nonzero_code, na.rm = TRUE),
+    optimizer_warning_refits =
+      sum(!is.na(optimizer_warning)),
+    optimizer_code_uninterpretable_refits =
+      sum(optimizer_code_uninterpretable, na.rm = TRUE)
   )
 
 write_csv(
@@ -1025,8 +1056,20 @@ loso_summary <- loso_results %>%
     singular_refits =
       sum(singular, na.rm = TRUE),
     
-    convergence_warning_refits =
-      sum(!is.na(convergence_message))
+    # Same raw message may report singularity; do not count it again
+    # as a separate optimizer/convergence failure.
+    any_lme4_message_refits =
+      sum(!is.na(convergence_message)),
+    singularity_message_refits =
+      sum(!is.na(singularity_message)),
+    other_numerical_alert_refits =
+      sum(other_numerical_alert, na.rm = TRUE),
+    optimizer_nonzero_code_refits =
+      sum(optimizer_nonzero_code, na.rm = TRUE),
+    optimizer_warning_refits =
+      sum(!is.na(optimizer_warning)),
+    optimizer_code_uninterpretable_refits =
+      sum(optimizer_code_uninterpretable, na.rm = TRUE)
   )
 
 write_csv(
@@ -1548,7 +1591,17 @@ conclusion_stability <- tibble(
   Question = c(
     "Cu: are Nauplii point estimates lower than Adults?",
     "Cd: are Nauplii point estimates lower than Adults?",
-    "Is the Cd-vs-Cu stage-contrast magnitude clearly different?"
+    "Is the unadjusted Cd-vs-Cu interaction p-value below 0.05?"
+  ),
+  Criterion = c(
+    "POINT_ESTIMATE_DIRECTION_ONLY",
+    "POINT_ESTIMATE_DIRECTION_ONLY",
+    "UNADJUSTED_INTERACTION_P_LT_0_05"
+  ),
+  Interpretation_note = c(
+    "TRUE describes point direction, not statistical support.",
+    "TRUE describes point direction, not statistical support.",
+    "Unadjusted planned interaction test; Holm sensitivity is reported separately."
   ),
   Combined_primary = c(
     baseline_metrics$Cu_ratio < 1,
@@ -1654,6 +1707,7 @@ write_csv(
 # ============================================================
 
 required_outputs <- c(
+  file.path(model_dir, "stage_primary_numerical_diagnostics.csv"),
   file.path(
     object_dir,
     "stage_model_analysis_objects.rds"

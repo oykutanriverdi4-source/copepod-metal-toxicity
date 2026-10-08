@@ -1,0 +1,2 @@
+Model,Results,References,Species,Legacy_convergence_clean,Diagnostic_scope,singular,lme4_messages,singularity_message,other_lme4_message,optimizer_code,optimizer_code_available,optimizer_nonzero_code,optimizer_code_uninterpretable,optimizer_warning,other_numerical_alert,numerical_report_status
+Reference fixed effects + Species random intercept,131,47,22,TRUE,Numerical status only; not a test of model adequacy,FALSE,NA,NA,NA,0,TRUE,FALSE,FALSE,NA,FALSE,NO_NUMERICAL_ALERT_RECORDED

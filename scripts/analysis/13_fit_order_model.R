@@ -62,6 +62,9 @@ library(lmerTest)
 library(emmeans)
 library(pbkrtest)
 
+# Reporting-only helper: does not fit/select models or suppress messages.
+source(file.path("scripts", "helpers", "reporting_checks.R"), local = TRUE)
+
 options(width = 220)
 options(na.action = "na.fail")
 
@@ -295,7 +298,11 @@ extract_order_metrics <- function(model) {
     
     singular = isSingular(model, tol = 1e-4),
     convergence_message = conv_msg
-  )
+  ) %>%
+    bind_cols(
+      report_fit_diagnostics(model) %>%
+        dplyr::select(-singular, -lme4_messages)
+    )
 }
 
 
@@ -456,6 +463,12 @@ order_emmeans_table <- summary(
   as.data.frame()
 
 baseline_metrics <- extract_order_metrics(m_order_int)
+
+# Additional numerical-status report; existing primary QA gates are unchanged.
+write_csv(
+  report_fit_diagnostics(m_order_int),
+  file.path(model_dir, "order_primary_numerical_diagnostics.csv")
+)
 
 write_csv(
   order_contrasts_summary,
@@ -936,8 +949,20 @@ loro_summary <- loro_results %>%
     singular_refits =
       sum(singular, na.rm = TRUE),
     
-    convergence_warning_refits =
-      sum(!is.na(convergence_message))
+    # Same raw message may report singularity; do not count it again
+    # as a separate optimizer/convergence failure.
+    any_lme4_message_refits =
+      sum(!is.na(convergence_message)),
+    singularity_message_refits =
+      sum(!is.na(singularity_message)),
+    other_numerical_alert_refits =
+      sum(other_numerical_alert, na.rm = TRUE),
+    optimizer_nonzero_code_refits =
+      sum(optimizer_nonzero_code, na.rm = TRUE),
+    optimizer_warning_refits =
+      sum(!is.na(optimizer_warning)),
+    optimizer_code_uninterpretable_refits =
+      sum(optimizer_code_uninterpretable, na.rm = TRUE)
   )
 
 write_csv(
@@ -1034,8 +1059,20 @@ loso_summary <- loso_results %>%
     singular_refits =
       sum(singular, na.rm = TRUE),
     
-    convergence_warning_refits =
-      sum(!is.na(convergence_message))
+    # Same raw message may report singularity; do not count it again
+    # as a separate optimizer/convergence failure.
+    any_lme4_message_refits =
+      sum(!is.na(convergence_message)),
+    singularity_message_refits =
+      sum(!is.na(singularity_message)),
+    other_numerical_alert_refits =
+      sum(other_numerical_alert, na.rm = TRUE),
+    optimizer_nonzero_code_refits =
+      sum(optimizer_nonzero_code, na.rm = TRUE),
+    optimizer_warning_refits =
+      sum(!is.na(optimizer_warning)),
+    optimizer_code_uninterpretable_refits =
+      sum(optimizer_code_uninterpretable, na.rm = TRUE)
   )
 
 write_csv(
@@ -1108,6 +1145,7 @@ loso_direction_changes <- loso_results %>%
 loro_interaction_extremes <- loro_results %>%
   filter(!is.na(ratio_of_ratios)) %>%
   arrange(ratio_of_ratios) %>%
+  slice_head(n = 1) %>%
   bind_rows(
     loro_results %>%
       filter(!is.na(ratio_of_ratios)) %>%
@@ -1120,6 +1158,7 @@ loro_interaction_extremes <- loro_results %>%
 loso_interaction_extremes <- loso_results %>%
   filter(!is.na(ratio_of_ratios)) %>%
   arrange(ratio_of_ratios) %>%
+  slice_head(n = 1) %>%
   bind_rows(
     loso_results %>%
       filter(!is.na(ratio_of_ratios)) %>%
@@ -1584,9 +1623,14 @@ write_csv(
 
 conclusion_stability <- tibble(
   Question = c(
-    "Cu: is Harpacticoida LC50 higher than Calanoida?",
-    "Cd: is Harpacticoida LC50 higher than Calanoida?",
-    "Is the Cd order contrast smaller than the Cu order contrast?"
+    "Cu: is the Harpacticoida/Calanoida point estimate above 1?",
+    "Cd: is the Harpacticoida/Calanoida point estimate above 1?",
+    "Is the Cd/Cu ratio-of-ratios point estimate below 1?"
+  ),
+  Criterion = rep("POINT_ESTIMATE_DIRECTION_ONLY", 3),
+  Interpretation_note = rep(
+    "TRUE describes point direction only; it does not establish an effect or interaction.",
+    3
   ),
   
   Combined_primary = c(
@@ -1703,6 +1747,7 @@ write_csv(
 # ============================================================
 
 required_outputs <- c(
+  file.path(model_dir, "order_primary_numerical_diagnostics.csv"),
   file.path(
     object_dir,
     "order_model_analysis_objects.rds"

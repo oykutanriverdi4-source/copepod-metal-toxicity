@@ -1,0 +1,2 @@
+singular,lme4_messages,singularity_message,other_lme4_message,optimizer_code,optimizer_code_available,optimizer_nonzero_code,optimizer_code_uninterpretable,optimizer_warning,other_numerical_alert,numerical_report_status
+FALSE,NA,NA,NA,0,TRUE,FALSE,FALSE,NA,FALSE,NO_NUMERICAL_ALERT_RECORDED

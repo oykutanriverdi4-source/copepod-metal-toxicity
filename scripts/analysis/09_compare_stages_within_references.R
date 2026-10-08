@@ -143,8 +143,8 @@ stage_source_decisions <- tribble(
   ~Reference_Number, ~Metal, ~Final_stage_use,
   ~Stage_verification_status, ~Stage_verification_note,
   
-  2977, "Cu", "YES", "SOURCE_VERIFIED_ENV",
-  "O'Brien et al.; Temperature 16 +/- 1 C and salinity 35",
+  2977, "Cu", "YES", "SOURCE_COMMON_PROTOCOL_CULTURE_TEMP_ONLY",
+  "O'Brien et al. 1988 pp.60-62: common experimental protocol and SOW medium; 16 +/- 1 C is reported in the culture paragraph, not separately as numeric test temperature. C6 is Adult. This comparison is protocol-supported, not a verified numeric-temperature match.",
   
   19281, "Cd", "YES", "SOURCE_VERIFIED_ENV",
   "Forget et al. (1998); Temperature 20 C and salinity 35",
@@ -185,15 +185,19 @@ stage_source_labels <- tribble(
   11097, 1135998, 90930, "Adult_ovigerous_sac",   4.2, "11097_OVIG_SAC"
 )
 
+# Source review 2026-10-07: the O'Brien key below records a common
+# protocol, NOT a measured or explicitly restated numeric test temperature.
+# Culture temperature stays in the source-review ledger; no 16 C value is
+# copied into the main dataset or the temperature display for that source.
 stage_env_source <- tribble(
   ~Reference_Number, ~Metal,
   ~Temperature_source_key, ~Salinity_source_key,
   ~Temperature_source_display, ~Salinity_source_display,
   
   2977, "Cu",
-  "SOURCE|REF2977|TEMP=16+-1C",
+  "SOURCE|REF2977|COMMON_PROTOCOL|TEST_TEMP_NOT_RESTATED",
   "SOURCE|REF2977|SAL=35",
-  16, 35,
+  NA_real_, 35,
   
   19281, "Cd",
   "SOURCE|REF19281|TEMP=20C",

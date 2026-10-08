@@ -1198,12 +1198,13 @@ write_csv(
 # ============================================================
 # 22. SCIENTIFIC BENCHMARK QA
 # ============================================================
-# These checks encode the final support architecture reported in the thesis.
+# Source-reviewed support architecture (2026-10-07). O'Brien C6 is Adult.
+# The manuscript still needs updating from 69 to 70 Stage Results.
 # They are assertions only; they do not alter the data or analysis.
 
 expected_stage_cells <- tribble(
   ~Metal, ~Stage_group, ~Results, ~Tests, ~References, ~Species, ~ECOTOX_Results, ~WoS_Results,
-  "Cu", "Adult",   31L, 31L, 17L, 13L, 28L, 3L,
+  "Cu", "Adult",   32L, 32L, 18L, 14L, 29L, 3L,
   "Cu", "Nauplii", 14L, 14L,  7L,  5L, 14L, 0L,
   "Cd", "Adult",   19L, 19L, 11L, 11L, 14L, 5L,
   "Cd", "Nauplii",  5L,  5L,  4L,  5L,  4L, 1L
@@ -1219,11 +1220,11 @@ expected_stage_cells <- expected_stage_cells %>%
 stopifnot(identical(observed_stage_cells, expected_stage_cells))
 
 stopifnot(
-  nrow(stage_model_data) == 69,
-  n_distinct(stage_model_data$Test_ID) == 69,
+  nrow(stage_model_data) == 70,
+  n_distinct(stage_model_data$Test_ID) == 70,
   n_distinct(stage_model_data$Reference_ID) == 31,
   n_distinct(stage_model_data$Species) == 19,
-  sum(stage_model_data$Source_Origin == "ECOTOX") == 60,
+  sum(stage_model_data$Source_Origin == "ECOTOX") == 61,
   sum(stage_model_data$Source_Origin == "WoS_supplemental") == 9
 )
 

@@ -1,24 +1,24 @@
 Metal_A,Metal_B,Stage_group,Refs_A,Refs_B,Shared_Refs,Shared_Ref_IDs,Species_A,Species_B,Shared_Species,Shared_Species_Names
 Ag,Cd,Adult,5,11,0,,4,11,3,Acartia clausi | Acartia tonsa | Tigriopus japonicus
 Ag,Cd,Nauplii,1,4,0,,1,5,1,Tigriopus brevicornis
-Ag,Cu,Adult,5,17,1,E_18833,4,13,4,Acartia clausi | Acartia tonsa | Tigriopus brevicornis | Tigriopus japonicus
+Ag,Cu,Adult,5,18,1,E_18833,4,14,4,Acartia clausi | Acartia tonsa | Tigriopus brevicornis | Tigriopus japonicus
 Ag,Cu,Nauplii,1,7,1,E_18833,1,5,1,Tigriopus brevicornis
 Ag,Hg,Adult,5,2,0,,4,2,0,
 Ag,Ni,Adult,5,5,0,,4,6,1,Acartia clausi
 Ag,Pb,Adult,5,2,1,E_3751,4,3,1,Acartia clausi
 Ag,Zn,Adult,5,7,0,,4,9,4,Acartia clausi | Acartia tonsa | Tigriopus brevicornis | Tigriopus japonicus
 Ag,Zn,Nauplii,1,3,0,,1,3,0,
-Cd,Cu,Adult,11,17,5,E_111315 | E_14137 | E_153073 | E_2183 | E_8445,11,13,7,Acartia clausi | Acartia tonsa | Eurytemora affinis | Nitocra spinipes | Paracyclopina nana | Tigriopus japonicus | Tisbe battagliai
+Cd,Cu,Adult,11,18,5,E_111315 | E_14137 | E_153073 | E_2183 | E_8445,11,14,7,Acartia clausi | Acartia tonsa | Eurytemora affinis | Nitocra spinipes | Paracyclopina nana | Tigriopus japonicus | Tisbe battagliai
 Cd,Cu,Nauplii,4,7,1,E_14137,5,5,3,Eurytemora affinis | Tigriopus brevicornis | Tisbe battagliai
 Cd,Hg,Adult,11,2,1,E_2183,11,2,1,Nitocra spinipes
 Cd,Ni,Adult,11,5,1,E_2183,11,6,5,Acartia clausi | Acartia danae | Eurytemora affinis | Nitocra spinipes | Oithona similis
 Cd,Pb,Adult,11,2,1,E_192310,11,3,3,Acartia clausi | Acartia danae | Oithona similis
 Cd,Zn,Adult,11,7,2,E_111315 | E_2183,11,9,5,Acartia clausi | Acartia tonsa | Eurytemora affinis | Nitocra spinipes | Tigriopus japonicus
 Cd,Zn,Nauplii,4,3,0,,5,3,0,
-Cu,Hg,Adult,17,2,1,E_2183,13,2,1,Nitocra spinipes
-Cu,Ni,Adult,17,5,2,E_2183 | W_013,13,6,3,Acartia clausi | Eurytemora affinis | Nitocra spinipes
-Cu,Pb,Adult,17,2,0,,13,3,1,Acartia clausi
-Cu,Zn,Adult,17,7,2,E_111315 | E_2183,13,9,7,Acartia clausi | Acartia tonsa | Eurytemora affinis | Nitocra spinipes | Pseudodiaptomus coronatus | Tigriopus brevicornis | Tigriopus japonicus
+Cu,Hg,Adult,18,2,1,E_2183,14,2,1,Nitocra spinipes
+Cu,Ni,Adult,18,5,2,E_2183 | W_013,14,6,3,Acartia clausi | Eurytemora affinis | Nitocra spinipes
+Cu,Pb,Adult,18,2,0,,14,3,1,Acartia clausi
+Cu,Zn,Adult,18,7,2,E_111315 | E_2183,14,9,7,Acartia clausi | Acartia tonsa | Eurytemora affinis | Nitocra spinipes | Pseudodiaptomus coronatus | Tigriopus brevicornis | Tigriopus japonicus
 Cu,Zn,Nauplii,7,3,0,,5,3,1,Tigriopus fulvus
 Hg,Ni,Adult,2,5,1,E_2183,2,6,2,Nitocra spinipes | Pseudodiaptomus marinus
 Hg,Pb,Adult,2,2,0,,2,3,0,

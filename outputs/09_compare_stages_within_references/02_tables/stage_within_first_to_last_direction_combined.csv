@@ -7,5 +7,5 @@ Series_ID,Reference_ID,Species,Metal,Duration_days,Source_Origin,earliest_stage,
 6,E_18833,Tigriopus brevicornis,Ag,4,ECOTOX,Nauplii,Adult,0.33717073243087387,1.2848622592803967,3.8107170513200366,1.3378173738769548,Later stage higher LC50 / earlier stage more sensitive
 7,E_18833,Tigriopus brevicornis,Cu,4,ECOTOX,Nauplii,Adult,4.846882573254021,14.056785382299868,2.9001704022845045,1.0647694946746118,Later stage higher LC50 / earlier stage more sensitive
 8,E_19281,Tigriopus brevicornis,Cd,4,ECOTOX,Nauplii,Copepodid,0.15478499119326775,0.2642019677264398,1.706896551724138,0.5346768395881706,Later stage higher LC50 / earlier stage more sensitive
-9,E_2977,Tigriopus californicus,Cu,4,ECOTOX,Egg,Copepodite,3.5999999999999996,7.18848602331221,1.9968016731422809,0.6915467371044197,Later stage higher LC50 / earlier stage more sensitive
+9,E_2977,Tigriopus californicus,Cu,4,ECOTOX,Egg,Adult,3.5999999999999996,12,3.3333333333333335,1.2039728043259361,Later stage higher LC50 / earlier stage more sensitive
 10,W_009,Pseudodiaptomus annandalei,Cd,4,WoS_supplemental,Nauplii,Copepodid,0.3584962727062465,1.0710409735442206,2.987593052109182,1.0944680639220836,Later stage higher LC50 / earlier stage more sensitive

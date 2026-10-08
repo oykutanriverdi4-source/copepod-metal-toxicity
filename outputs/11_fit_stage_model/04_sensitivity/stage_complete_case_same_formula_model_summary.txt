@@ -22,7 +22,7 @@ MetalCd               0.08654    0.35115 29.46520   0.246   0.8071
 StageNauplii         -0.90256    0.48884 31.17041  -1.846   0.0744 .
 MetalCd:StageNauplii  0.54209    0.74022 34.86084   0.732   0.4689  
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Correlation of Fixed Effects:
             (Intr) MetlCd StgNpl

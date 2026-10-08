@@ -1,5 +1,10 @@
 # Copepod Metal Toxicity
 
+> **Working correction, 7 October 2026 — not yet a new archived release.**
+> This working tree includes the source-verified C6 adult-stage correction and reporting repairs.
+> Rebuild and check the outputs before publishing or using figures from this tree.
+> The DOI below identifies the previous archived v1.0.0, not this unarchived working revision.
+
 Reproducibility repository for the MSc thesis:
 
 **Comparative Acute Metal Toxicity in Marine and Estuarine Copepods: A Quantitative Assessment of Relative LC50 Patterns Across Biological and Experimental Contexts**
@@ -33,7 +38,9 @@ The reproducible analytical sequence is:
 15. audit sex-specific evidence;
 16. regenerate the thesis-facing figure suite.
 
-The master runner is:
+For this correction, use `source("RUN_REVISION.R", encoding = "UTF-8")` once from the repository root. It checks the installed files, tests the reporting helpers, backs up earlier generated files beside the project, then invokes the core workflow. See `documentation/revision_20261007.md`.
+
+The underlying master runner is:
 
 ```r
 source("scripts/00_run_core_pipeline.R")
@@ -41,21 +48,21 @@ source("scripts/00_run_core_pipeline.R")
 
 Open `copepod-metal-toxicity.Rproj` first so that all relative paths resolve from the repository root.
 
-## Frozen numerical benchmarks
+## Numerical regression checks for the current correction
 
 A successful core run reproduces the following workflow checks:
 
 - 353 Results in the combined ECOTOX + supplementary-evidence dataset;
 - 304 Results with harmonized positive molar LC50 values;
 - 131 Results in the pooled 96-h Cu-Cd-Zn model;
-- 69 Results in the 96-h Cu-Cd Adult/Nauplii model;
+- 70 Results in the 96-h Cu-Cd Adult/Nauplii model;
 - 101 Results in the 96-h Cu-Cd Calanoida/Harpacticoida model.
 
 These checks are implemented in the individual scripts and again in `scripts/00_run_core_pipeline.R`.
 
 ## Software
 
-The final thesis workflow was run in **R 4.4.2** on Windows 11 x64. Principal modelling and inference packages include `lme4`, `lmerTest`, `emmeans`, and `pbkrtest`; figures use `ggplot2`/`tidyverse`. Data import and workflow utilities include `readxl`, `readr`, `dplyr`, `tidyr`, `stringr`, `tibble`, `purrr`, `writexl`, and `openxlsx`.
+The preceding source-correction workflow was run in **R 4.4.2** on Windows 11 x64. Principal modelling and inference packages include `lme4`, `lmerTest`, `emmeans`, and `pbkrtest`; figures use `ggplot2`/`tidyverse`. Data import and workflow utilities include `readxl`, `readr`, `dplyr`, `tidyr`, `stringr`, `tibble`, `purrr`, `writexl`, and `openxlsx`.
 
 Each major analysis writes a `sessionInfo.txt` file so that the package environment used for that run is recorded with the outputs.
 

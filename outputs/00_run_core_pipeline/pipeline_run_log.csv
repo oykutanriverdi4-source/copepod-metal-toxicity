@@ -1,0 +1,17 @@
+"Step","Name","Script","Expected_output","Status","Seconds"
+"01","Prepare ECOTOX data","scripts/analysis/01_prepare_ecotox_data.R","data/processed/ecotox_harmonized.csv","PASS",3.072
+"02","Integrate WoS verified records","scripts/analysis/02_integrate_wos_verified_records.R","data/processed/combined_ecotox_wos_harmonized.csv","PASS",1.328
+"03","Audit metal support","scripts/analysis/03_audit_metal_support.R","outputs/03_audit_metal_support/03_objects/metal_support_audit_objects.rds","PASS",11.961
+"04","Fit pooled metal model","scripts/analysis/04_fit_pooled_metal_model.R","outputs/04_fit_pooled_metal_model/RUN_COMPLETE.txt","PASS",51.592
+"05","Compare metals within References","scripts/analysis/05_compare_metals_within_references.R","outputs/05_compare_metals_within_references/RUN_COMPLETE.txt","PASS",5.456
+"06","Compare exposure duration","scripts/analysis/06_compare_exposure_duration.R","outputs/06_compare_exposure_duration/RUN_COMPLETE.txt","PASS",14.968
+"07","Assess salinity and temperature","scripts/analysis/07_assess_salinity_temperature.R","outputs/07_assess_salinity_temperature/RUN_COMPLETE.txt","PASS",4.76
+"08","Assess pH evidence","scripts/analysis/08_assess_ph_evidence.R","outputs/08_assess_ph_evidence/RUN_COMPLETE.txt","PASS",2.441
+"09","Compare stages within References","scripts/analysis/09_compare_stages_within_references.R","outputs/09_compare_stages_within_references/RUN_COMPLETE.txt","PASS",9.989
+"10","Audit stage support","scripts/analysis/10_audit_stage_support.R","outputs/10_audit_stage_support/RUN_COMPLETE.txt","PASS",5.504
+"11","Fit developmental-stage model","scripts/analysis/11_fit_stage_model.R","outputs/11_fit_stage_model/RUN_COMPLETE.txt","PASS",35.008
+"12","Audit taxonomic-order support","scripts/analysis/12_audit_order_support.R","outputs/12_audit_order_support/RUN_COMPLETE.txt","PASS",5.466
+"13","Fit taxonomic-order model","scripts/analysis/13_fit_order_model.R","outputs/13_fit_order_model/RUN_COMPLETE.txt","PASS",35.673
+"14","Analyze matched-metal covariance","scripts/analysis/14_analyze_metal_covariance.R","outputs/14_analyze_metal_covariance/RUN_COMPLETE.txt","PASS",12.837
+"15","Audit sex-specific evidence","scripts/analysis/15_audit_sex_specific_evidence.R","outputs/15_audit_sex_specific_evidence/RUN_COMPLETE.txt","PASS",0.726
+"FIG","Generate main thesis figures","scripts/figures/01_make_main_thesis_figures.R","outputs/16_make_main_thesis_figures/RUN_COMPLETE.txt","PASS",53.208

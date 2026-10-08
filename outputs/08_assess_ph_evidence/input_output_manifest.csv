@@ -1,13 +1,5 @@
-Role,Path,Exists,MD5
-Input: canonical combined dataset,data/processed/combined_ecotox_wos_harmonized.csv,TRUE,e5ea0198c0e93e8983f0c0f6635b9bf9
-Input: curated WoS source-verification workbook,data/curated/wos/wos_source_verified_records.xlsx,TRUE,ee3d910f328293d8f1b5f30d63262558
-Output: WoS pH reference audit,outputs/08_assess_ph_evidence/01_audit/WoS_second_pass_pH_reference_audit.csv,TRUE,5af6c61c521445743948dcfaccf0233a
-Output: WoS pH result-level map,outputs/08_assess_ph_evidence/01_audit/WoS_second_pass_pH_result_level.csv,TRUE,98d407231f2c56a6ed353ff8e75ceafc
-Output: combined pH metadata layer,outputs/08_assess_ph_evidence/01_audit/combined_harmonized_with_ph_metadata.csv,TRUE,9c40c532beb1de997111b57f534d5dd3
-Output: overall pH metadata coverage,outputs/08_assess_ph_evidence/02_tables/ph_metadata_coverage_overall.csv,TRUE,3cb11fddf8a7c0474e22a4f5ef5aae86
-Output: repeated-pH candidate contexts,outputs/08_assess_ph_evidence/02_tables/ph_within_reference_candidate_contexts.csv,TRUE,5dbdd8bfc768dbda1b2b1a2e0d509dec
-Output: pH-salinity confounding summary,outputs/08_assess_ph_evidence/02_tables/ph_salinity_confounded_contexts.csv,TRUE,e838d8312bc3f5360a785e676164706f
-Output: Wei 2021 acidification summary,outputs/08_assess_ph_evidence/02_tables/wei2021_direct_acidification_summary.csv,TRUE,b8351523bbb34fa527b91b2f9d4da46a
-Output: final pH analytical decision,outputs/08_assess_ph_evidence/02_tables/ph_final_decision_summary.csv,TRUE,b903a0ede4bd34e374e20d85608cb468
-Output: pH confounding QA figure,outputs/08_assess_ph_evidence/03_figures/e166133_ph_salinity_confounding_QA.png,TRUE,4081696b5d10d8ed65c7d948aaaaf446
-Output: R analysis objects,outputs/08_assess_ph_evidence/04_objects/ph_evidence_analysis_objects.rds,TRUE,236c0d11f79751328c711d7b7ae6b201
+role,path
+input,data/processed/combined_ecotox_wos_harmonized.csv
+input,data/curated/wos/wos_source_verified_records.xlsx
+output_object,outputs/08_assess_ph_evidence/04_objects/ph_evidence_objects.rds
+output_session,outputs/08_assess_ph_evidence/sessionInfo.txt

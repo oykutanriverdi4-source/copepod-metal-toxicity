@@ -59,6 +59,9 @@ library(lmerTest)
 library(emmeans)
 library(pbkrtest)
 
+# Reporting-only helper: does not fit/select models or suppress messages.
+source(file.path("scripts", "helpers", "reporting_checks.R"), local = TRUE)
+
 options(width = 220)
 options(na.action = "na.fail")
 
@@ -838,6 +841,32 @@ stopifnot(
 )
 
 
+# Reporting-only counts: same saved Tukey intervals, no new tests/refits.
+delete_interval_report <- function(dat, check_name, deleted_id, expected_n) {
+  bind_rows(lapply(split(dat, as.character(dat$contrast)), function(one_contrast) {
+    bind_cols(
+      tibble(Check = check_name, contrast = as.character(one_contrast$contrast[1])),
+      report_ratio_support(
+        one_contrast, ratio = "LC50_ratio", lower = "ratio_lower",
+        upper = "ratio_upper", id = deleted_id, expected_refits = expected_n,
+        interval_adjustment = "Tukey: three metal contrasts within each refit"
+      )
+    )
+  }))
+}
+deletion_direction_and_interval_summary <- bind_rows(
+  delete_interval_report(
+    loro_results, "LORO", "removed_reference", n_distinct(primary96$Reference_ID)
+  ),
+  delete_interval_report(
+    loso_results, "LOSO", "removed_species", n_distinct(primary96$Species)
+  )
+)
+write_csv(
+  deletion_direction_and_interval_summary,
+  file.path(robustness_dir, "deletion_direction_and_interval_summary.csv")
+)
+
 # ============================================================
 # 13. ROBUSTNESS 3: REFERENCE FIXED-EFFECTS SENSITIVITY
 # ============================================================
@@ -845,6 +874,22 @@ stopifnot(
 m_metal_ref_FE <- lmer(
   ln_LC50_umol_L ~ Reference_ID + Metal + (1 | Species),
   data = primary96, REML = TRUE
+)
+
+reference_fixed_effects_fit_checks <- bind_cols(
+  tibble(
+    Model = "Reference fixed effects + Species random intercept",
+    Results = nobs(m_metal_ref_FE),
+    References = n_distinct(primary96$Reference_ID),
+    Species = n_distinct(primary96$Species),
+    Legacy_convergence_clean = model_convergence_clean(m_metal_ref_FE),
+    Diagnostic_scope = "Numerical status only; not a test of model adequacy"
+  ),
+  report_fit_diagnostics(m_metal_ref_FE)
+)
+write_csv(
+  reference_fixed_effects_fit_checks,
+  file.path(robustness_dir, "reference_fixed_effects_fit_checks.csv")
 )
 
 emm_ref_FE <- emmeans(m_metal_ref_FE, ~ Metal, lmer.df = "kenward-roger")
@@ -1293,7 +1338,10 @@ robustness_point_estimates <- bind_rows(
       LC50_ratio > 1 ~ ">1",
       TRUE ~ "=1"
     ),
-    CI_excludes_1 = ratio_upper < 1 | ratio_lower > 1
+    CI_excludes_1 = ratio_upper < 1 | ratio_lower > 1,
+    Interval_level = 0.95,
+    Interval_adjustment = "Tukey: three metal contrasts within each model",
+    Across_variants_adjustment = "None; models are sensitivity checks, not independent confirmations"
   )
 
 write_csv(
@@ -1573,6 +1621,8 @@ analysis_objects <- list(
   leave_one_reference_out = loro_results,
   leave_one_species_out = loso_results,
   reference_fixed_effects_model = m_metal_ref_FE,
+  reference_fixed_effects_fit_checks = reference_fixed_effects_fit_checks,
+  deletion_direction_and_interval_summary = deletion_direction_and_interval_summary,
   reference_only_model = m_metal_ref_only,
   primary_vs_reference_only = primary_vs_ref_only,
   collapsed_model_data = primary96_collapsed,
@@ -1682,6 +1732,8 @@ cat("\n--- CONCLUSION-STABILITY SUMMARY ---\n")
 print_full(conclusion_stability_summary)
 
 required_outputs <- c(
+  file.path(robustness_dir, "reference_fixed_effects_fit_checks.csv"),
+  file.path(robustness_dir, "deletion_direction_and_interval_summary.csv"),
   file.path(model_dir, "metal_pairwise_lc50_ratios.csv"),
   file.path(model_dir, "metal_model_estimates_original_scale.csv"),
   file.path(model_dir, "pre_augmentation_vs_combined_ratio_shift.csv"),

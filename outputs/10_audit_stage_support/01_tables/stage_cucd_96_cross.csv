@@ -4,6 +4,7 @@ E_111315,Tigriopus japonicus,2,1,2,"Cd, Cu",Adult
 E_153073,Paracyclopina nana,2,1,2,"Cd, Cu",Adult
 E_18833,Tigriopus brevicornis,1,2,2,Cu,"Adult, Nauplii"
 E_2183,Nitocra spinipes,2,1,2,"Cd, Cu",Adult
+E_2977,Tigriopus californicus,1,2,2,Cu,"Adult, Nauplii"
 E_8445,Acartia tonsa,2,1,2,"Cd, Cu",Adult
 E_10443,Acartia tonsa,1,1,1,Cd,Nauplii
 E_10443,Eurytemora affinis,1,1,1,Cd,Nauplii
@@ -24,7 +25,6 @@ E_18395,Eurytemora affinis,1,1,1,Cu,Nauplii
 E_192310,Acartia danae,1,1,1,Cd,Adult
 E_192310,Oithona similis,1,1,1,Cd,Adult
 E_19281,Tigriopus brevicornis,1,1,1,Cd,Nauplii
-E_2977,Tigriopus californicus,1,1,1,Cu,Nauplii
 E_3735,Acartia clausi,1,1,1,Cu,Adult
 E_3735,Eurytemora affinis,1,1,1,Cu,Adult
 E_3735,Pseudodiaptomus coronatus,1,1,1,Cu,Adult

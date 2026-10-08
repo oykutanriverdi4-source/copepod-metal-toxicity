@@ -56,3 +56,7 @@ outputs/database_audits/envirotox/03_prepare_envirotox_manual_review/envirotox_m
 # Temporary Office lock files
 **/~$*.xlsx
 **/~$*.docx
+
+# Local correction-run reports may contain workstation paths.
+/REVISION_CHECK.txt
+/REVISION_CONSOLE.log

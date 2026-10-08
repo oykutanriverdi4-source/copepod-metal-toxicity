@@ -361,7 +361,7 @@ order_objects <- readRDS(
 stopifnot(
   nrow(
     stage_objects$stage_model_data
-  ) == 69L,
+  ) == 70L,
   nrow(
     order_objects$order_model_data
   ) == 101L
@@ -419,7 +419,7 @@ writeLines(
     "Combined Results: 353",
     "Common-molar quantitative Results: 304",
     "Pooled 96-h Cu-Cd-Zn model Results: 131",
-    "Developmental-stage model Results: 69",
+    "Developmental-stage model Results: 70",
     "Taxonomic-order model Results: 101",
     paste0(
       "Pipeline steps completed: ",
@@ -453,7 +453,7 @@ cat(
   "353 combined Results\n",
   "304 common-molar quantitative Results\n",
   "131 pooled-model Results\n",
-  "69 developmental-stage model Results\n",
+  "70 developmental-stage model Results\n",
   "101 taxonomic-order model Results\n",
   nrow(run_log),
   " pipeline steps completed successfully\n",

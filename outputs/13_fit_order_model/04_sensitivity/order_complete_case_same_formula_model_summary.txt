@@ -22,7 +22,7 @@ MetalCd                      0.9107     0.3017 51.6336   3.019  0.00394 **
 OrderHarpacticoida           2.2443     0.7585 18.5295   2.959  0.00822 **
 MetalCd:OrderHarpacticoida  -0.3758     0.4772 52.3984  -0.787  0.43454   
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Correlation of Fixed Effects:
             (Intr) MetlCd OrdrHr

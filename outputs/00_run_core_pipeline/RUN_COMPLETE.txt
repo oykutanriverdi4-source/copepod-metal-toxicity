@@ -1,0 +1,8 @@
+STATUS: CORE PIPELINE = PASS
+Combined Results: 353
+Common-molar quantitative Results: 304
+Pooled 96-h Cu-Cd-Zn model Results: 131
+Developmental-stage model Results: 70
+Taxonomic-order model Results: 101
+Pipeline steps completed: 16
+Elapsed minutes: 4.23

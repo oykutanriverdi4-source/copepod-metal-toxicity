@@ -21,7 +21,7 @@ Fixed effects:
 MetalCd       0.3104     0.2755 101.1845   1.127 0.262521    
 MetalZn       1.3397     0.3761 106.0525   3.562 0.000553 ***
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Correlation of Fixed Effects:
         (Intr) MetlCd

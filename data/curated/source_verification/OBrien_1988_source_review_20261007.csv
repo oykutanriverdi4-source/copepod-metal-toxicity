@@ -1,0 +1,14 @@
+Result_ID,Test_Number,Source_stage,Source_LC50_umol_L,Source_LC95_umol_L,Dataset_LC50_umol_L,LC50_match,Original_Lifestage,Source_broad_stage,Temperature_in_dataset,Temperature_source_status,Source
+E_R115189,1047096,Egg,3.6,9.6,3.6,True,Egg,Egg,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115190,1047097,N1,1.2,3.7,1.2,True,Nauplii,Nauplii,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115191,1047098,N2,0.3,4.7,0.3,True,Nauplii,Nauplii,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115192,1047099,N3,2.5,8,2.5,True,Nauplii,Nauplii,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115193,1047100,N4,2.9,8.7,2.9,True,Nauplii,Nauplii,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115194,1047101,N5,4.1,8.8,4.1,True,Nauplii,Nauplii,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115195,1047102,N6,4.8,9.6,4.8,True,Nauplii,Nauplii,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115196,1047103,C1,5.9,11,5.9,True,Copepodite,Copepodite,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115197,1047104,C2,7.8,13.7,7.8,True,Copepodite,Copepodite,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115198,1047105,C3,6.5,11.2,6.5,True,Copepodite,Copepodite,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115199,1047106,C4,6.2,12.5,6.2,True,Copepodite,Copepodite,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115200,1047107,C5,6.2,10.6,6.2,True,Copepodite,Copepodite,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60
+E_R115201,1047108,C6,12.0,15.1,12.0,True,Copepodite,Adult,,16 +/- 1 C in culture paragraph; assay-specific restatement absent,OBrien et al. 1988 Table 1 p.61; Table 2 p.62; Methods p.60

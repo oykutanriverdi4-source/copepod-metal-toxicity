@@ -1,5 +1,5 @@
 Reference_Number,Metal,Final_stage_use,Stage_verification_status,Stage_verification_note
-2977,Cu,YES,SOURCE_VERIFIED_ENV,O'Brien et al.; Temperature 16 +/- 1 C and salinity 35
+2977,Cu,YES,SOURCE_COMMON_PROTOCOL_CULTURE_TEMP_ONLY,"O'Brien et al. 1988 pp.60-62: common experimental protocol and SOW medium; 16 +/- 1 C is reported in the culture paragraph, not separately as numeric test temperature. C6 is Adult. This comparison is protocol-supported, not a verified numeric-temperature match."
 19281,Cd,YES,SOURCE_VERIFIED_ENV,Forget et al. (1998); Temperature 20 C and salinity 35
 14137,Cu,YES,SOURCE_VERIFIED_RAW_RANGE,Adult-Nauplii contrast; RAW/source environmental range recovered
 14137,Cd,YES,SOURCE_VERIFIED_RAW_RANGE,Adult-Nauplii contrast; RAW/source environmental range recovered

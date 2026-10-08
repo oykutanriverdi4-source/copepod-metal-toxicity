@@ -1,10 +1,5 @@
 # Copepod Metal Toxicity
 
-> **Working correction, 7 October 2026 — not yet a new archived release.**
-> This working tree includes the source-verified C6 adult-stage correction and reporting repairs.
-> Rebuild and check the outputs before publishing or using figures from this tree.
-> The DOI below identifies the previous archived v1.0.0, not this unarchived working revision.
-
 Reproducibility repository for the MSc thesis:
 
 **Comparative Acute Metal Toxicity in Marine and Estuarine Copepods: A Quantitative Assessment of Relative LC50 Patterns Across Biological and Experimental Contexts**
@@ -38,9 +33,7 @@ The reproducible analytical sequence is:
 15. audit sex-specific evidence;
 16. regenerate the thesis-facing figure suite.
 
-For this correction, use `source("RUN_REVISION.R", encoding = "UTF-8")` once from the repository root. It checks the installed files, tests the reporting helpers, backs up earlier generated files beside the project, then invokes the core workflow. See `documentation/revision_20261007.md`.
-
-The underlying master runner is:
+The master runner is:
 
 ```r
 source("scripts/00_run_core_pipeline.R")
@@ -48,7 +41,7 @@ source("scripts/00_run_core_pipeline.R")
 
 Open `copepod-metal-toxicity.Rproj` first so that all relative paths resolve from the repository root.
 
-## Numerical regression checks for the current correction
+## Numerical regression checks
 
 A successful core run reproduces the following workflow checks:
 
@@ -62,7 +55,7 @@ These checks are implemented in the individual scripts and again in `scripts/00_
 
 ## Software
 
-The preceding source-correction workflow was run in **R 4.4.2** on Windows 11 x64. Principal modelling and inference packages include `lme4`, `lmerTest`, `emmeans`, and `pbkrtest`; figures use `ggplot2`/`tidyverse`. Data import and workflow utilities include `readxl`, `readr`, `dplyr`, `tidyr`, `stringr`, `tibble`, `purrr`, `writexl`, and `openxlsx`.
+The revised thesis workflow was run in **R 4.4.2** on Windows 11 x64. Principal modelling and inference packages include `lme4`, `lmerTest`, `emmeans`, and `pbkrtest`; figures use `ggplot2`/`tidyverse`. Data import and workflow utilities include `readxl`, `readr`, `dplyr`, `tidyr`, `stringr`, `tibble`, `purrr`, `writexl`, and `openxlsx`.
 
 Each major analysis writes a `sessionInfo.txt` file so that the package environment used for that run is recorded with the outputs.
 
@@ -72,6 +65,9 @@ Each major analysis writes a `sessionInfo.txt` file so that the package environm
 copepod-metal-toxicity/
 ├── README.md
 ├── .gitignore
+├── CITATION.cff
+├── CHANGELOG.md
+├── LICENSE
 ├── copepod-metal-toxicity.Rproj
 ├── data/
 │   ├── raw/
@@ -88,16 +84,18 @@ copepod-metal-toxicity/
 │   ├── 00_run_core_pipeline.R
 │   ├── analysis/
 │   ├── figures/
+│   ├── helpers/
 │   └── database_audits/
 │       ├── wos/
 │       └── envirotox/
+├── tests/
 ├── outputs/
 ├── results/
 │   └── figures/
 └── documentation/
 ```
 
-`outputs/` contains computational and QA outputs. `results/figures/` contains the reader-facing thesis figures regenerated from the frozen analysis outputs.
+`outputs/` contains computational and QA outputs. `results/figures/` contains the reader-facing thesis figures regenerated from the analytical outputs.
 
 ## Data provenance
 
@@ -157,17 +155,17 @@ Plot data, figure objects, provenance and QA information are retained under:
 outputs/16_make_main_thesis_figures/
 ```
 
-The figure script does not refit the scientific models; it reconstructs the final figures from frozen analytical outputs.
+The figure script does not refit the scientific models; it reconstructs the thesis figures from the saved analytical outputs.
 
 ## Reproducibility boundary
 
-The scripts preserve the final thesis workflow, including the retained eligibility and harmonization decisions, model formulas, planned contrasts, Reference and Species random effects, LORO/LOSO checks, environmental complete-case sensitivity, within-Reference matching rules, and Reference-level covariance bootstrap.
+The scripts preserve the retained thesis workflow, including the eligibility and harmonization decisions, model formulas, planned contrasts, Reference and Species random effects, LORO/LOSO checks, environmental complete-case sensitivity, within-Reference matching rules, and Reference-level covariance bootstrap.
 
 For Web of Science, users reproducing the audit should obtain their own export through their licensed access. For EnviroTox, users can reproduce the documented public search and export the corresponding records; the raw downloaded workbook is kept outside this repository as a conservative redistribution choice.
 
 ## Citation and archive
 
-The archived thesis reproducibility release is available on Zenodo:
+The currently archived Zenodo release is:
 
 **Tanrıverdi, Ö. (2026). _Comparative Acute Metal Toxicity in Marine and Estuarine Copepods: Reproducibility Code and Data_ (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23031360**
 
@@ -178,4 +176,4 @@ The archived thesis reproducibility release is available on Zenodo:
 - **Zenodo record:** https://zenodo.org/records/23031360
 - **GitHub repository:** https://github.com/oykutanriverdi4-source/copepod-metal-toxicity
 
-The Zenodo record is the frozen archival copy of release `v1.0.0`. The GitHub `main` branch may contain later documentation or metadata updates.
+The Zenodo record above is the frozen archival copy of release `v1.0.0`. The GitHub `main` branch may contain later corrections that have not yet been archived as a new Zenodo release.
